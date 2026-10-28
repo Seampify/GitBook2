@@ -9,10 +9,3 @@ site:
       default: true
       content:
         directory: ./seampify-knowledge-centre
-    - type: space
-      key: space-2
-      title: Copy of Docs
-      path: copy-of-docs
-      draft: true
-      content:
-        directory: ./copy-of-docs
