@@ -7,7 +7,9 @@ There are two ways businesses can communicate with customers through the WhatsAp
 
 Each follows different messaging rules depending on the **24-hour customer service window**.
 
-### 1. User-Initiated Conversations
+***
+
+## 1. User-Initiated Conversations
 
 A user-initiated conversation begins when a customer sends a WhatsApp message to your business.
 
@@ -17,7 +19,9 @@ Every time the customer sends a new message, the 24-hour window resets.
 
 Once the window expires, your business can only send an approved message template until the customer messages again.
 
-### 2. Business-Initiated Conversations
+***
+
+## 2. Business-Initiated Conversations
 
 A business-initiated conversation occurs when your business reaches out to a customer without an active 24-hour customer service window.
 
@@ -27,7 +31,9 @@ These templates may fall under Marketing, Utility, or Authentication categories,
 
 Businesses must also obtain the appropriate customer opt-in before initiating messages.
 
-### 3. Understanding the Difference
+***
+
+## 3. Understanding the Difference
 
 |                  | User-Initiated                    | Business-Initiated             |
 | ---------------- | --------------------------------- | ------------------------------ |
@@ -37,14 +43,22 @@ Businesses must also obtain the appropriate customer opt-in before initiating me
 | Message template | Optional within the window        | Required outside the window    |
 | Pricing          | Based on applicable message rules |                                |
 
-<figure><img src="../../.gitbook/assets/image (632).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
 **Important:** Meta charges for WhatsApp Business Platform usage based on delivered messages rather than simply counting conversations. The applicable charges depend on message category, recipient country, and current Meta pricing rules.
+{% endhint %}
+
+***
 
 Learn more for each conversations from the links below:
 
 {% content-ref url="../conversation-through-whatsapp-cloud-api.md" %}
 [conversation-through-whatsapp-cloud-api.md](../conversation-through-whatsapp-cloud-api.md)
+{% endcontent-ref %}
+
+{% content-ref url="../whatsapp-conversation-based-pricing/" %}
+[whatsapp-conversation-based-pricing](../whatsapp-conversation-based-pricing/)
 {% endcontent-ref %}
 
 {% content-ref url="understanding-24-hour-customer-service-window.md" %}
@@ -53,8 +67,4 @@ Learn more for each conversations from the links below:
 
 {% content-ref url="understanding-whatsapp-message-template/" %}
 [understanding-whatsapp-message-template](understanding-whatsapp-message-template/)
-{% endcontent-ref %}
-
-{% content-ref url="whatsapp-conversation-based-pricing/" %}
-[whatsapp-conversation-based-pricing](whatsapp-conversation-based-pricing/)
 {% endcontent-ref %}

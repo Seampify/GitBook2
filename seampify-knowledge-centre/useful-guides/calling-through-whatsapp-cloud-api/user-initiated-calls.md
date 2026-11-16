@@ -1,170 +1,197 @@
 # User-initiated Calls
 
-The Calling API supports receiving calls made by WhatsApp users to your business for free.
+WhatsApp Business Calling allows customers to call your business directly through WhatsApp.
 
-Your business dictates when calls can be received by configuring business calling hours and holiday unavailability from the calling feature settings.
+**User-initiated calls are free of Meta's calling connectivity charges.**
+
+Your business can manage call availability by configuring business hours and holiday schedules through the calling settings.
 
 {% hint style="success" %}
-[Before you get started with user-initiated calling, ensure that you have enable the Calling API features on your business phone number.](./#step-1-prerequisites)
+**Tip:** Before you begin, ensure WhatsApp Business Calling is enabled for your business phone number. Refer to [Calling through WhatsApp Cloud API](https://seampify.gitbook.io/seampify/useful-guides/calling-through-whatsapp-cloud-api) for setup instructions.
 {% endhint %}
 
-Once a call is established, there is about 30 to 60 seconds for the business to accept the phone call. If the business does not respond, the call is terminated on the WhatsApp user side with a "Not Answered" notification.
+Once a customer initiates a call, your business must answer within the available ringing period. Otherwise, the call will end and appear as unanswered.
 
-## Promoting your WhatsApp Call
+***
 
-After you adopt Cloud API Calling features, you can raise awareness with your customers in two core ways:
+## 1. Promoting Your WhatsApp Call
 
-* [Send them a message with a WhatsApp call button](user-initiated-calls.md#send-interactive-message-with-a-whatsapp-call-button)
-* [Embed a calling deep link into your brand surfaces (website, application, etc)](user-initiated-calls.md#calling-deep-links)
+After enabling WhatsApp Business Calling, you can encourage customers to call your business through two methods:
 
-### Send message with a WhatsApp Call Button <a href="#send-interactive-message-with-a-whatsapp-call-button" id="send-interactive-message-with-a-whatsapp-call-button"></a>
+* [Send a message with a WhatsApp Call Button](user-initiated-calls.md#send-interactive-message-with-a-whatsapp-call-button)
+* [Embed a Calling Deep Link](user-initiated-calls.md#calling-deep-links) on your website, application, or other communication channels.
+
+#### i. Send Message with a WhatsApp Call Button <a href="#send-interactive-message-with-a-whatsapp-call-button" id="send-interactive-message-with-a-whatsapp-call-button"></a>
 
 There are 2 types of message where you can allow your customer to perform a call to your number:
 
-* Interactive message - a free form interactive message with a WhatsApp call button during a [customer service window](../conversation-through-whatsapp-cloud-api-1/understanding-24-hour-customer-service-window.md)
-* Template message - marketing or utility template message with a WhatsApp call button outside the [customer service window](../conversation-through-whatsapp-cloud-api-1/understanding-24-hour-customer-service-window.md)
+1. **Interactive Message:** Send a regular interactive message with a WhatsApp Call Button within the [24-hour customer service window](../conversation-through-whatsapp-cloud-api-1/understanding-24-hour-customer-service-window.md).
+2. **Template Message:** Send an approved Marketing or Utility template containing a WhatsApp Call Button, including outside the [24-hour customer service window](../conversation-through-whatsapp-cloud-api-1/understanding-24-hour-customer-service-window.md).
 
-When a WhatsApp user clicks the call button, it initiates a WhatsApp call to the business number that sent the message.
+When customers tap the call button, they can initiate a WhatsApp voice call to your business.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
-### Creating a calling deep links <a href="#calling-deep-links" id="calling-deep-links"></a>
+#### ii. Creating Calling Deep Links
 
-Calling deep links are hyperlinks that route WhatsApp users to call your business. The process to create a calling deep link is the same as a chat deep link.
+Calling deep links allow customers to initiate a WhatsApp voice call to your business through a clickable URL.
 
-**Create your own calling deep link**\
-Use https://wa.me/call/ where the is a full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.<br>
+Use the following format:
 
-**Examples:**\
-Use: https://wa.me/call/1XXXXXXXXXX\
-Don't use: https://wa.me/call/+001-(XXX)XXXXXXX
+`https://wa.me/call/<BUSINESS_PHONE_NUMBER>`
+
+Replace `<BUSINESS_PHONE_NUMBER>` with your WhatsApp business phone number in international format, without the `+` symbol, spaces, brackets, or hyphens.
+
+**Examples:**
+
+**Correct formats:**
+
+* Malaysia (+60): `https://wa.me/call/60123456789`
+* Singapore (+65): `https://wa.me/call/6591234567`
+* General example: `https://wa.me/call/1XXXXXXXXXX`
+
+**Incorrect format:**
+
+`https://wa.me/call/+001-(XXX)XXXXXXX`
+
+_Note: The phone numbers above are examples only. Replace them with your actual WhatsApp business number._
 
 {% hint style="danger" %}
-Note that deep links are not supported on WhatsApp desktop clients.
+**Caution:** Calling deep-link support may vary depending on the customer's device and WhatsApp application. Test your link before sharing it publicly.
 {% endhint %}
 
-#### Embed calling deep links <a href="#embed-calling-deep-links" id="embed-calling-deep-links"></a>
+#### iii. Embed calling deep links <a href="#embed-calling-deep-links" id="embed-calling-deep-links"></a>
 
-You can use calling deep links to advertise WhatsApp calling for your business
+You can embed calling deep links on your website, mobile application, or other platforms to allow customers to initiate WhatsApp calls directly.
 
-Use these links anywhere where calling can be useful, like your website, primary application, or even as a QR code to be shared.
+Calling deep links can also be converted into QR codes for use on printed materials or promotional campaigns.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
-#### Send calling deep links <a href="#send-calling-deep-links" id="send-calling-deep-links"></a>
+#### **iv. Send Calling Deep Links**
 
-You can also send messages to WhatsApp users with a calling deep link.
+You can also share calling deep links directly with customers through supported messaging channels.
 
-Since deep links can be made per business phone number, you can use calling deep links to prompt WhatsApp users to contact a different phone number with voice enabled.
+Each calling deep link is associated with a specific WhatsApp business phone number. This allows you to direct customers to the appropriate business number with calling enabled.
 
-The `wa.me/call/<BUSINESS_PHONE_NUMBER>` format is easy to copy, paste, and send, and does not require you to make a template in Business Manager.
+<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+***
 
-## Frequently Asked Question about User-initiated Calls
+## 2. Frequently Asked Questions
 
 <details>
 
 <summary>Am I eligible for WhatsApp calling?</summary>
 
-Before you get started with the Calling API, ensure that:
+Before getting started with the Calling API, ensure that:
 
-1. Your business number is in use with Cloud API (not the WhatsApp Business app)
-2. The business phone number should be in the Messaging Tier of at-least 2,000 (2K) messages. [More details about Messaging Tier Limit here](../messaging-limits-for-click-to-whatsapp-ads-ctwa/)
-3. [Enable Calling features on your business phone number](./#step-1-prerequisites)
-
-</details>
-
-<details>
-
-<summary>What is the max number of concurrent calls that a single Cloud API account phone number can receive?</summary>
-
-Max concurrent calls is 1000
-
-When the rate limit exceeds, the caller (viz. WhatsApp user) will get a generic message saying call cannot be placed. Meta anticipate to increase this limit and hence chances of this happening are low.
-
-Note that the rate limits for messaging API and template creation/update API are separate and unrelated to calling limits.
+1. Your business phone number is connected to the WhatsApp Cloud API.
+2. Your business portfolio has a messaging limit of at least 2,000 unique customers within a rolling 24-hour period.
+3. You have [enabled the Calling API feature](https://seampify.gitbook.io/seampify/useful-guides/calling-through-whatsapp-cloud-api#step-1-prerequisites) for your business phone number.
 
 </details>
 
 <details>
 
-<summary>What is the maximum call duration supported</summary>
+<summary>What is the maximum number of concurrent calls a single Cloud API phone number can receive?</summary>
 
-There is no call duration limit
+Meta supports up to **1,000 concurrent calls per WhatsApp business phone number**.
 
-</details>
+If this limit is exceeded, customers may be unable to place additional calls until capacity becomes available.
 
-<details>
-
-<summary>Can I send/receive text/media messages while a call is in progress?</summary>
-
-Yes. The regular send-message API can be used while a call is in progress.
+Calling limits are separate from WhatsApp messaging limits.
 
 </details>
 
 <details>
 
-<summary>Does the WABA need to be a verified business for calling</summary>
+<summary>What is the maximum supported call duration?</summary>
 
-No. [Business verification](../../starting-with-seampify/meta-business-verification.md) is not a requirement for calling, nor is it required for messaging. But, The business phone number should be in the Messaging Tier of at-least 2,000 (2K) messages to be eligible for WhatsApp calling. [More details about Messaging Tier Limit here](../messaging-limits-for-click-to-whatsapp-ads-ctwa/)
-
-</details>
-
-<details>
-
-<summary>How does usage of Calling APIs affect my rate limits?</summary>
-
-Calling API usage does not count towards messaging rate limits at the moment. The only limit enforced for calling right now is the 1000 concurrent calls limit, but this may change in near future.
+Meta does not specify a general maximum call duration for WhatsApp Business Calling. However, actual call duration may depend on network conditions and your calling provider.
 
 </details>
 
 <details>
 
-<summary>When is the call icon in the chat title bar visible on WhatsApp Consumer apps?</summary>
+<summary>Can I send or receive messages while a call is in progress?</summary>
+
+Yes. You can continue sending and receiving WhatsApp messages while a voice call is in progress.
+
+</details>
+
+<details>
+
+<summary>Does the WABA need to be a verified business for calling?</summary>
+
+Meta Business Verification is not necessarily required solely to enable user-initiated calling.
+
+However, your business phone number must meet the applicable Calling API eligibility and configuration requirements.
+
+</details>
+
+<details>
+
+<summary>Does Calling API usage affect my messaging limits?</summary>
+
+No. WhatsApp calling and messaging limits are managed separately.
+
+Calling activity does not count towards your business portfolio's template messaging limit.
+
+[More details about Messaging Tier Limit here](../messaging-limits-for-click-to-whatsapp-ads-ctwa/)
+
+</details>
+
+<details>
+
+<summary>When is the call icon visible in a customer's WhatsApp chat?</summary>
 
 It is visible when **all the following conditions are met:**
 
-* The business phone number has the calling status set to `ENABLED` in the [call settings API](./#step-2-configure-optional-calling-features).
-* Call setting display call button is set to `ENABLED` in the [call settings API](./#step-2-configure-optional-calling-features).
-  * The call icon visibility feature is supported in WhatsApp mobile versions 2.24.10.8 and above on Android and iOS
-* Consumer’s WhatsApp version 2.23.14 or above. We expect all consumers to be on this version or above
+* The business phone number's calling status is set to `ENABLED` in the [Call Settings API](./#step-2-configure-optional-calling-features).
+* The call button visibility setting is enabled.
+* The customer's WhatsApp application supports the calling feature.
 
 </details>
 
 <details>
 
-<summary>Can we limit calling access to specific or individual WA users instead of all WA users? Example: a lead that’s qualified or a customer who is in premium tier</summary>
+<summary>Can we limit calling access to specific or individual WhatsApp users instead of all users?</summary>
 
-No, Meta do not have a way to control visibility or access of calling on an individual WhatsApp user basis. However you can use [Call Settings API](./#step-2-configure-optional-calling-features) to set `call_icon_visibility` to `DISABLE_ALL` which will hide call icons to all WA users. For qualified WA users, you can send a message with the call CTA button so only they can call you by tapping on the button in the message
+For example, can we allow only qualified leads or premium customers to call?
 
-Providing this type of feature would require Meta to store configuration per WhatsApp user which has higher privacy risk. It will also incur higher operational overhead for you to maintain large lists of allowlisted WA users on an ongoing basis
+No. Meta does not currently provide a way to control call icon visibility individually for each WhatsApp user.
 
-</details>
+However, you can use the [Call Settings API](./#step-2-configure-optional-calling-features) to set `call_icon_visibility` to `DISABLE_ALL`, hiding the call icon from all users.
 
-<details>
+You can then send WhatsApp Call Buttons to selected customers, allowing them to initiate calls directly from those messages.
 
-<summary>When the call icon is hidden using Call Settings API, is it still possible for consumers to call the business?</summary>
-
-Yes.
-
-A user can still call the business from other entry points which are unaffected by the [Call Settings API](./#step-2-configure-optional-calling-features) such as:
-
-* Save the business number as a contact and use new call
-* Call logs from Calls tab > Recent
-* Call CTA in messages sent from the business
-* Call bubble in the chat window that appears following any call between user and business
-
-Hence the recommendation is to treat `DISABLE_ALL` only as a broad first level filter and ensure your automation in Seampify do any additional filtering based on your own business logic.
+**Note:** Hiding the call icon does not completely restrict calling access. Additional filtering may be required through your Seampify automation or business logic.&#x20;
 
 </details>
 
 <details>
 
-<summary>What is the min version of WhatsApp mobile apps that support the voice call button?</summary>
+<summary>When the call icon is hidden using Call Settings API, can customers still call the business?</summary>
 
-* Min app version for iOS is 24.1
-* Min app version for Android is 2.
+Yes. Customers may still call your business through other entry points, including:
+
+* Saving your business number as a contact and initiating a new call.
+* Previous call records under **Calls > Recent**.
+* WhatsApp Call Buttons in messages.
+* Call bubbles displayed in the chat after a previous call.
+
+Therefore, `DISABLE_ALL` should only be treated as a first-level visibility control.
+
+</details>
+
+<details>
+
+<summary>What is the minimum version of WhatsApp mobile apps that support the voice call button?</summary>
+
+Customers should use the latest available version of WhatsApp on Android or iOS.
+
+Older application versions may not support certain WhatsApp Calling features.
 
 </details>
 
@@ -172,29 +199,30 @@ Hence the recommendation is to treat `DISABLE_ALL` only as a broad first level f
 
 <summary>Is calling supported for end users from WhatsApp Web or WhatsApp Desktop apps?</summary>
 
-No. WhatsApp Web does not support consumer-v-consumer or business calls. Desktop apps support only consumer-v-consumer calls at this point
+WhatsApp Business Calling support varies across WhatsApp Web, Desktop, and mobile applications.
+
+For the most reliable experience, customers should use the latest WhatsApp mobile application on Android or iOS.
 
 </details>
 
 <details>
 
-<summary>What are the countries supported for calling?</summary>
+<summary>What countries are supported for calling?</summary>
 
-**User-initiated Calling (UIC)**\
-UIC is available in every location Cloud API is available
+**User-Initiated Calling (UIC)**
 
-**Business-initiated Calling (BIC)**\
-BIC is currently available in every location Cloud API is available, except the following countries:
+User-initiated calling is generally available in locations where WhatsApp Cloud API supports business calling, subject to Meta's country restrictions.
 
-USA\
-Canada\
-Turkey\
-Egypt\
-Vietnam\
-Nigeria
+**Business-Initiated Calling (BIC)**
+
+Business-initiated calling is available in supported countries, subject to Meta's restrictions and eligibility requirements.
+
+Some countries, including the United States, Canada, Egypt, Nigeria, and Vietnam, have restrictions on business-initiated calling.
+
+For the latest information, refer to [Meta's WhatsApp Business Calling API documentation](https://developers.facebook.com/docs/whatsapp/cloud-api/calling/).
 
 {% hint style="warning" %}
-Note: The business phone number’s country code must be in this supported list. The consumer phone number can be from any country where Cloud API is available.
+**Important:** Eligibility generally depends on the business phone number's country code. Supported countries and restrictions may change.
 {% endhint %}
 
 </details>

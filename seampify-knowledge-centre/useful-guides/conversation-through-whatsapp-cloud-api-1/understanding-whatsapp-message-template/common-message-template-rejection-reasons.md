@@ -4,7 +4,7 @@ icon: message-exclamation
 
 # Common Message Template Rejection Reasons
 
-## Common Rejection Reasons <a href="#common-rejection-reasons" id="common-rejection-reasons"></a>
+## 1. Common Rejection Reasons <a href="#common-rejection-reasons" id="common-rejection-reasons"></a>
 
 Message templates may be rejected by Meta for the following reasons. Make sure to avoid these common mistakes when creating your templates.
 
@@ -27,24 +27,30 @@ You may also receive an email notification containing the rejection details.
 
 For duplicate templates, the Business Support Home notification may display the name and language of the existing template with identical content. Once you've identified the issue, you can edit the template and resubmit it for approval.
 
+{% hint style="info" %}
 **Note:** Duplicate-template restrictions do not apply to templates categorised as [`AUTHENTICATION`](./#types-of-message-template).&#x20;
+{% endhint %}
 
-## Troubleshooting a Rejected Message Template
+***
+
+## 2. Troubleshooting a Rejected Message Template
 
 You can edit and resubmit a rejected template through the [Manage Templates](../../../seampifys-modules/settings/more-settings/channels/manage-templates/) page in Seampify.&#x20;
 
 Once resubmitted, the template's status will change to **Pending** while Meta reviews it. The template cannot be sent to customers until it has been approved and is active.
 
-## Quality Rating <a href="#quality-rating" id="quality-rating"></a>
+***
+
+## 3. Quality Rating <a href="#quality-rating" id="quality-rating"></a>
 
 Every message template has a quality rating based on customer feedback, engagement, and message performance.
 
 Templates with an **Active** status may display the following quality ratings in WhatsApp Manager:
 
-* **Active – Quality pending** (Green)
-* **Active – High quality** (Green)
-* **Active – Medium quality** (Yellow)
-* **Active – Low quality** (Red)
+* **Active – Quality pending** (🟢 Green)
+* **Active – High quality** (🟢 Green)
+* **Active – Medium quality** (🟡 Yellow)
+* **Active – Low quality** (🔴 Red)
 
 Newly approved templates generally begin with a **Quality pending** rating.
 

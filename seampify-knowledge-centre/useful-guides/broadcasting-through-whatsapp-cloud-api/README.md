@@ -1,11 +1,15 @@
 # Broadcasting through WhatsApp Cloud API
 
-Beginning May 2, 2022, your businesses can start messaging customers after you complete the [onboarding processes](../../starting-with-seampify/connecting-to-whatsapp-cloud-api/). Business verification and display name review will no longer be needed to get started onto the WhatsApp Business Platform.
+Once your business completes the [WhatsApp Cloud API onboarding process](https://seampify.gitbook.io/seampify/starting-with-seampify/connecting-to-whatsapp-cloud-api), you can start communicating with customers through Seampify, subject to Meta's messaging limits and requirements.
 
-After sign-up, your business can:
+After onboarding, your business can:
 
-* Respond to unlimited customer-initiated conversations in [24-hour Customer Service Windows.](../conversation-through-whatsapp-cloud-api-1/understanding-24-hour-customer-service-window.md)
-* Broadcast [business-initiated conversations ](../conversation-through-whatsapp-cloud-api-1/understanding-whatsapp-message-template/)to 250 unique customers in a rolling 24-hour period per phone number.
-* Register up to 2 phone numbers.
+* **Reply to customer messages** within the [24-hour customer service window](https://seampify.gitbook.io/seampify/useful-guides/conversation-through-whatsapp-cloud-api/understanding-24-hour-customer-service-window).
+* **Send business-initiated messages** using [approved message templates](https://seampify.gitbook.io/seampify/useful-guides/conversation-through-whatsapp-cloud-api/understanding-whatsapp-message-template), subject to Meta's messaging limits.
+* **Connect additional WhatsApp business phone numbers**, subject to your account's eligibility and Meta's requirements.
+
+New business portfolios generally begin with a messaging limit of **250 unique customers within a rolling 24-hour period**. This limit is shared across all WhatsApp business phone numbers within the same business portfolio and may increase as your business meets Meta's requirements.
+
+***
 
 Learn more about Broadcast Messaging Limit in the next article.

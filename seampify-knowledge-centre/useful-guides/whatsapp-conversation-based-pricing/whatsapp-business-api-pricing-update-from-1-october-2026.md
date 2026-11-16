@@ -20,7 +20,7 @@ For businesses using WhatsApp for customer service, sales, chatbot automation an
 
 ***
 
-## What Is Changing From 1 October 2026?
+## 1. What Is Changing From 1 October 2026?
 
 Today, when a customer sends your business a WhatsApp message, a **24-hour customer service window** opens.
 
@@ -32,7 +32,7 @@ Since 1 October 2026, Meta has charged for Service messages after the monthly fr
 
 However, the first **1,000 Service messages per business phone number each month will remain free**.
 
-#### At a glance
+#### At a Glance
 
 | Message Type                                                | Until 30 Sep 2026 | From 1 Oct 2026 |
 | ----------------------------------------------------------- | ----------------- | --------------- |
@@ -51,7 +51,7 @@ Utility, Marketing and Authentication messages continue to follow their respecti
 
 ***
 
-### How Does the 1,000 Free Service Message Allowance Work?
+## 2. How Does the 1,000 Free Service Message Allowance Work?
 
 Meta will provide the free allowance **per business phone number**, rather than per WhatsApp Business Account.
 
@@ -75,7 +75,7 @@ This also means that businesses with relatively low customer service volumes may
 
 ***
 
-### The 24-Hour Customer Service Window Still Applies
+## 3. The 24-Hour Customer Service Window Still Applies
 
 The introduction of Service message pricing does **not** remove or change the 24-hour customer service window.
 
@@ -95,7 +95,7 @@ In other words:
 
 ***
 
-### Why is WhatsApp Changing Its Business Messaging Model?
+## 4. Why is WhatsApp Changing Its Business Messaging Model?
 
 Meta has not provided a specific public explanation for the October Service message pricing change. However, Meta has been progressively introducing measures aimed at improving the quality and relevance of business messaging, including stronger controls around marketing messages, customer opt-ins and the quality of business conversations.
 
@@ -105,7 +105,7 @@ For businesses, this means greater emphasis should be placed on designing conver
 
 ***
 
-## Malaysia WhatsApp Messaging Rates From 1 October 2026
+## 5. Malaysia WhatsApp Messaging Rates From 1 October 2026
 
 Meta has published the rates that will take effect from **1 October 2026**.
 
@@ -120,8 +120,8 @@ For messages delivered to Malaysian recipients:
 
 From 1 October 2026, Service messages in Malaysia will follow the applicable Utility rate. The first 1,000 Service messages per business phone number each month are free. The applicable Service rate begins from the 1,001st Service message.
 
-{% hint style="warning" %}
-The conversation fees vary based on conversation category and country/region rate. [Click to view the Meta rate card.](https://developers.facebook.com/docs/whatsapp/pricing#rates)
+{% hint style="info" %}
+**Note:** The conversation fees vary based on conversation category and country/region rate. [Click to view the Meta rate card.](https://developers.facebook.com/docs/whatsapp/pricing#rates)
 {% endhint %}
 
 #### A Simple Malaysia Example
@@ -139,10 +139,10 @@ Businesses that stay within the 1,000 free Service messages per phone number eac
 
 ***
 
-## Important: Ensure Your Payment Method Is Set Up
+## 6. Important: Ensure Your Payment Method Is Set Up
 
 {% hint style="warning" %}
-Businesses using the WhatsApp Business Platform should ensure that a valid payment method is configured for their WhatsApp Business Account (WABA).
+**Reminder:** Businesses using the WhatsApp Business Platform should ensure that a valid payment method is configured for their WhatsApp Business Account (WABA).
 {% endhint %}
 
 Since **1 October 2026**, Meta has charged for Service messages after the first 1,000 free messages per business phone number each month.
@@ -158,41 +158,41 @@ Without a valid payment method or applicable billing arrangement, chargeable mes
 
 For step-by-step instructions, refer to [Setting Up Payment Method](https://seampify.gitbook.io/seampify/starting-with-seampify/setting-up-payment-method).
 
-**Note:** Meta's WhatsApp messaging charges are separate from your Seampify subscription or platform fees.
+{% hint style="warning" %}
+**Important:** Meta's WhatsApp messaging charges are separate from your Seampify subscription or platform fees.
+{% endhint %}
 
 This payment requirement relates to **Meta's WhatsApp Business Platform messaging charges** and is separate from your Seampify subscription or platform fees.
 
-**Important:** Ensure a valid payment method is configured to avoid potential disruptions to chargeable WhatsApp messages.
-
 ***
 
-## What About WhatsApp Coexistence?
+## 7. What About WhatsApp Coexistence?
 
 For businesses using **WhatsApp Coexistence**, where the same number is connected to both the WhatsApp Business App and the WhatsApp Business Platform/API, there continues to be an important distinction.
 
-### Message sent directly from WhatsApp Business App
+#### i. Message sent directly from WhatsApp Business App
 
 **No WhatsApp Business Platform API messaging charge.**
 
-#### Message sent through Seampify / WhatsApp Business API
+#### ii. Message sent through Seampify / WhatsApp Business API
 
 The message follows Meta's applicable API pricing rules.
 
 For Service messages sent through the Seampify platform, the first 1,000 eligible Service messages per business phone number each month are free, after which the applicable Service rate applies.
 
-### Message sent by chatbot or third-party AI through Seampify
+#### iii. Message sent by chatbot or third-party AI through Seampify
 
 This is also treated as a Service message where applicable and follows the same Service-message pricing model.
 
 Messages sent directly from the WhatsApp Business App remain Business App messages, even when they are synchronised with Seampify through Coexistence.
 
 {% hint style="info" %}
-Although messages sent from the WhatsApp Business App may also appear inside the connected platform to keep conversations synchronised, they remain Business App messages and are not converted into chargeable API messages.
+**Note:** Although messages sent from the WhatsApp Business App may also appear inside the connected platform to keep conversations synchronised, they remain Business App messages and are not converted into chargeable API messages.
 {% endhint %}
 
 ***
 
-## How Businesses Can Keep WhatsApp Costs Optimised
+## 8. How Businesses Can Keep WhatsApp Costs Optimised
 
 Businesses with higher conversation volumes should still review how their WhatsApp customer journeys are designed to minimise unnecessary message usage.
 
@@ -200,7 +200,7 @@ The goal is not to reduce customer engagement.
 
 It is to **make every conversation more efficient and every message more valuable**.
 
-### 1. Combine Fragmented Replies
+#### i. Combine Fragmented Replies
 
 Instead of sending:
 
@@ -220,9 +220,7 @@ One complete response can provide the same customer experience while reducing un
 
 This becomes especially relevant after a business has used its monthly 1,000 free Service messages.
 
-***
-
-### 2. Optimise Chatbot Journeys
+#### ii. Optimise Chatbot Journeys
 
 Businesses should review chatbot flows that generate many individual replies.
 
@@ -236,9 +234,7 @@ Where appropriate, use:
 
 Instead of asking for customer information across several separate messages, businesses may be able to collect the same information through one structured interaction.
 
-***
-
-### 3. Use Buttons, Lists and WhatsApp Flows
+#### iii. Use Buttons, Lists and WhatsApp Flows
 
 Not every customer interaction requires several back-and-forth messages.
 
@@ -258,9 +254,7 @@ Businesses can provide structured options such as:
 
 This helps customers reach their intended action faster while reducing unnecessary conversation steps.
 
-***
-
-### 4. Review Automated Notifications
+#### iv. Review Automated Notifications
 
 Businesses should also review recurring automated messages such as:
 
@@ -275,9 +269,7 @@ Each notification should have a clear customer purpose.
 
 Where appropriate, related updates can be consolidated without reducing the quality of customer communication.
 
-***
-
-### 5. Improve Customer Segmentation
+#### v. Improve Customer Segmentation
 
 Marketing messages will continue to be charged according to Meta's Marketing rates.
 
@@ -295,9 +287,7 @@ The objective should not simply be to minimise the number of messages sent.
 
 It should be to improve the **business value generated from every message**.
 
-***
-
-### 6. Make Better Use of Click-to-WhatsApp
+#### vi. Make Better Use of Click-to-WhatsApp
 
 Eligible conversations initiated through **Click-to-WhatsApp advertisements** can benefit from a free-entry-point messaging window of up to **seven days**, subject to Meta's eligibility requirements.
 
@@ -307,9 +297,7 @@ Messages sent during a qualifying free-entry-point window are exempt from standa
 
 For businesses using Meta Ads, this makes Click-to-WhatsApp an important consideration when planning customer acquisition and messaging journeys.
 
-***
-
-### 7. Track Your Monthly Service Message Usage
+#### vii. Track Your Monthly Service Message Usage
 
 With the introduction of the 1,000 free monthly Service messages, businesses should begin monitoring:
 
@@ -325,7 +313,7 @@ Understanding your actual volume will help you determine where optimisation prov
 
 ***
 
-## The Goal Isn't Fewer Conversations — It's More Efficient Conversations
+## 9. The Goal Isn't Fewer Conversations — It's More Efficient Conversations
 
 With **1,000 free Service messages available per business phone number each month**, businesses with lower Service-message volumes may incur little or no additional Service-message charges.
 
@@ -353,7 +341,7 @@ to identify opportunities to reduce unnecessary message volume before the new pr
 
 ***
 
-## Frequently Asked Questions
+## 10. Frequently Asked Questions
 
 <details>
 
@@ -485,7 +473,7 @@ It should be to **make every conversation more efficient and every message more 
 
 For the latest information on WhatsApp Business Platform pricing, message categories and market rates, refer to [Meta's official WhatsApp Business Platform pricing page](https://business.whatsapp.com/products/platform-pricing?utm_source=chatgpt.com).
 
-You can also review or [add the payment method](../../../starting-with-seampify/setting-up-payment-method.md) associated with your Meta Business account through Meta's Billing & Payments settings.
+You can also review or [add the payment method](../../starting-with-seampify/setting-up-payment-method.md) associated with your Meta Business account through Meta's Billing & Payments settings.
 
 Meta may continue to revise its WhatsApp Business Platform pricing, message categories, and billing requirements. Seampify will continue monitoring relevant updates and sharing important changes with our customers.
 

@@ -4,52 +4,63 @@ icon: pencil
 
 # Sending Interactive Message
 
-Interactive message is a button type message. This guide will be here to explain each interactive message options and how to use them in your automation function in order to achieve higher conversion rate from your customers.
+Interactive messages allow businesses to communicate with customers using buttons, lists, and other selectable options.
 
-## Types of Interactive Messages
+These messages can be used in Seampify automations to simplify customer interactions and guide users towards specific actions.
 
-* **List Messages:** This message can be created with the option of having sections (up to 10) where each section can have up to 10 choices. This type of message allows for a more simpler and consistent way for users to make a choice when browsing through the business.
-* **Button/Flow Messages:** This message can be created with up to 3 buttons that can be used for specific actions or flow in a chatbot. This can help create users have a more quicker and focus way to navigate the business.
-* **Location Messages:** Messages that ask for user's location.
-* **Single-Product Messages:** Messages that promotes a single product item from the business's inventory.&#x20;
-* **Multi-Product Messages:** Messages that promotes up to 30 items from the business's inventory.
+***
 
-## Interactive Message Specifications
+## 1. Types of Interactive Messages
 
-* Users cannot select more than 1 option from a list or button message but can go back and reopen old messages.
-* List or button messages can only be sent within the [24 Hour Customer Service Window](understanding-24-hour-customer-service-window.md). If you send a message after the 24 hour window, an error message will appear instead.
-* Supported platforms: iOS, Android and Web. Flow message is not supported in Web.
+* **List Messages:** Display selectable options organised into sections, with up to 10 choices in total. Ideal for menus, bookings, and customer enquiries.
+* **Button Messages:** Display up to three reply buttons that customers can select to perform specific actions or navigate a chatbot.
+* **Flow Messages:** Allow customers to complete interactive experiences, such as forms, bookings, or enquiries, within WhatsApp.
+* **Location Messages:** Request customers to share their location.
+* **Single-Product Messages:** Display one product from your business's catalogue.
+* **Multi-Product Messages:** Display up to 30 products from your business's catalogue.
 
+***
 
+## 2. Interactive Message Specifications
 
-See how text messages compare to interactive messages:
+* Customers can select one option at a time from a list or button message, but may reopen previous messages.
+* Non-template interactive messages can only be sent within the [24-Hour Customer Service Window](https://seampify.gitbook.io/seampify/useful-guides/conversation-through-whatsapp-cloud-api/understanding-24-hour-customer-service-window).
+* Outside the 24-hour window, businesses must use an approved message template. Interactive templates may support buttons and other approved components.
+* Interactive message availability and appearance may vary across WhatsApp on iOS, Android, and Web.
 
-<figure><img src="../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+**Note:** Interactive messages sent within the customer service window may be subject to Meta's service-message pricing rules.
+{% endhint %}
 
-## Overview
+See how text messages compare with interactive messages:
 
-### Why you should use interactive messages?
+<figure><img src="../../.gitbook/assets/image (375).png" alt=""><figcaption></figcaption></figure>
 
-* **User Comprehension** - The benefit when using interactive messages over traditional messages is you can present a more simpler and consistent form if messages that allows users to be able to have a higher comprehension level when interacting with the features.
-* **Business Outcomes** - During testing, chatbots using interactive messaging features has a higher turnover rate where there is more responses and conversions compared to traditional text-based.
-* **Personalized** - Can be personalized to be of use to the customer or the situation. For example, you can list messages to show booking times slots or use reply buttons to show previous delivery address.
-* **No Templates** - No template or pre-approval is needed for interactive messages.
+***
 
-### When you should use interactive messages?
+## 3. Overview
 
-We can give you a few examples on when to use each type of messages.
+#### Why Should You Use Interactive Messages?
 
-| Interactive Message | Example                                                                                                                                                                                             |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| List Messages       | <p>1) Customer care or FAQ menu<br>2) Take-out menu<br>3) Selection of nearby stores or locations<br>4) Available reservation times<br>5) Choosing a recent order</p>                               |
-| Button Messages     | <p>1) Airtime recharge<br>2) Changing personal details<br>3) Reordering a previous order<br>4) Requesting a return<br>5) Adding optional extras to a food order<br>6) Choosing a payment method</p> |
-| Flow Messages       | <p>1) Booking appointments<br>2) Browsing products<br>3) Collecting customer feedback<br>4) Getting new sales leads</p>                                                                             |
+* **Easy to Understand:** Present clear options that help customers respond without typing lengthy messages.
+* **Better Customer Engagement:** Buttons and lists make it easier for customers to take action and complete common tasks.
+* **Personalised Experiences:** Interactive messages can be tailored to customer needs, such as selecting appointment times or confirming delivery details.
+* **No Template Approval Required:** Standard interactive messages sent within the 24-hour customer service window do not require template approval.
 
+#### When Should You Use Interactive Messages?
 
+Here are some examples of when each interactive message type can be used.
 
-Learn more about Interactive Messages here:
+| Interactive Message | Examples                                                                                                       |
+| ------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **List Messages**   | Customer support menus, food menus, store locations, appointment slots, and recent orders.                     |
+| **Button Messages** | Reordering products, requesting returns, confirming details, choosing payment methods, and selecting services. |
+| **Flow Messages**   | Booking appointments, browsing products, collecting feedback, and capturing sales leads.                       |
+
+***
+
+Learn more about setting up interactive messages in Seampify:
 
 {% content-ref url="../../seampifys-modules/settings/more-settings/channels/interactive-messages.md" %}
 [interactive-messages.md](../../seampifys-modules/settings/more-settings/channels/interactive-messages.md)
 {% endcontent-ref %}
-

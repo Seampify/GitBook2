@@ -4,7 +4,7 @@ icon: message-lines
 
 # Message Templates Example
 
-## Marketing templates <a href="#marketing-templates" id="marketing-templates"></a>
+## 1. Marketing Templates <a href="#marketing-templates" id="marketing-templates"></a>
 
 Marketing templates are Meta's most flexible. They can enable businesses to achieve a wide range of goals, from generating awareness to driving sales and more.
 
@@ -23,11 +23,15 @@ Also considered marketing templates are:
 * Templates with mixed content (e.g. Both utility and marketing, such as order update with a promo or offer).
 * Templates where contents are unclear (e.g., contents are only “\{{1\}}” or “Congratulations!”).
 
-## Utility templates <a href="#utility-templates" id="utility-templates"></a>
+***
+
+## 2. Utility Templates <a href="#utility-templates" id="utility-templates"></a>
 
 Utility templates are typically triggered by a user action or request. They must include specificity about the active or ongoing transaction, account, subscription or interaction to which they relate. For example, an order confirmation must contain an order number.
 
+{% hint style="info" %}
 **Note:** Examples are illustrative only. Templates that contain similar content, or the example text below, may be categorized differently based on the exact content.
+{% endhint %}
 
 | Message Objective                       | Business Goal                                                                                                                                                                                                                                                                                    | Example Templates                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -37,10 +41,12 @@ Utility templates are typically triggered by a user action or request. They must
 | **Feedback Surveys**                    | <p>Collect feedback on previous orders, interactions or ongoing relationships with customers.</p><p>These messages should not be about requesting feedback related to potential upsell or cross-sell opportunities.</p>                                                                          | <ul><li>"We have delivered your order {{1}}! Please let us know if there was any issue by reaching out here: {{2}}."</li><li>"Your feedback ensures we continually improve. Please click here {{1}} to share your thoughts on your recent visit at our {{2}} location. Thank you in advance!"</li><li>"You chatted with us online recently about order {{1}}. How was your experience? Click to fill out a short survey: {{2}}."</li></ul>                                                                                                                                      |
 | **Continue a Conversation on WhatsApp** | <p>Send a message to start an interaction on WhatsApp that began in another channel.</p><p>These messages should not be initiated without a user having requested the conversation to be moved to WhatsApp.</p>                                                                                  | <ul><li>"Hi! I see you requested support via our online chat. I am the virtual assistant on WhatsApp. How can I help?"</li><li>"Hi {{1}}, we are following up on your call with customer service on {{2}}. Your case has progressed to the next step. Please log into your account to continue: {{3}}."</li></ul>                                                                                                                                                                                                                                                               |
 
-## Authentication templates
+***
+
+## 3. Authentication Templates
 
 {% hint style="warning" %}
-Only authentication templates can be used to send a one-time passcode for identity verification; marketing and utility templates cannot be used for this.
+**Important:** Only authentication templates can be used to send a one-time passcode for identity verification; marketing and utility templates cannot be used for this.
 {% endhint %}
 
 Authentication templates enable businesses to authenticate users with one-time passcodes (usually 4-8 digit alphanumeric codes), potentially at multiple steps in the login process (e.g., account verification, account recovery, integrity challenges).

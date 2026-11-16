@@ -1,58 +1,109 @@
 ---
 description: >-
-  If you're not receiving notifications from your Seampify app, follow these
-  troubleshooting steps to resolve the issue:
+  If you are not receiving notifications from the Seampify app, follow these
+  troubleshooting steps to resolve the issue.
 ---
 
-# Why I Didn't Receive Notification on Seampify App
+# Why Am I Not Receiving Notifications on the Seampify App?
 
-## 1. **Verify You're Logged In**:
+## 1. **Verify That You're Logged In**
 
-* Ensure you're logged into your Seampify account within the app. Notifications are only sent to authenticated users.
+Ensure that you are logged in to your Seampify account on the mobile app. Notifications will only be sent to authenticated users.
 
-## **2. Check App Notification Settings**:
+***
 
-* **On Your Device**:
-  * **For iOS**:
-    * Go to `Settings` > `Notifications`.
-    * Scroll to find the Seampify app.
-    * Ensure 'Allow Notifications' is toggled on.
-  * **For Android**:
-    * Navigate to `Settings` > `Apps` or `Application Manager`.
-    * Locate the Seampify app in the list.
-    * Tap on it and select 'Notifications'.
-    * Ensure notifications are enabled.
+## **2.** Check App Notification Settings
 
-## **3. Assign User to Chat Using Automation**
+#### For iOS:
+
+* Go to **Settings → Notifications**.
+* Locate the Seampify app.
+* Ensure that **Allow Notifications** is enabled.
+
+#### For Android:
+
+* Go to **Settings → Apps**.
+* Locate the Seampify app.
+* Select **Notifications**.
+* Ensure that notifications are enabled.
+
+***
+
+## **3.** Assign Users to Conversations Using Automation
 
 Follow these steps to automatically assign conversations to users and receive notifications:
 
-1. **Go to Automation:**
-   * Navigate to **Automation** in your app.
-2. **Import Automation Template:**
-   * Click on **Import Automation Template**.
-   * Choose **Opt-in/Opt-out** from the list of templates.
-3. **Assign to Team Member:**
-   * Click on **Assign to Team Member**.
-   * Set the **Assignment Type** to **Assign to Specific Team Member**.
-   * Choose **Your Name** as the team member.
-4. **Import the Template:**
-   * Click on the **Import** button to apply the automation.
+{% stepper %}
+{% step %}
+#### **Go to Automations**
 
-<figure><img src="../../.gitbook/assets/ScreenRecording2025-01-22145549-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption></figcaption></figure>
+Navigate to **Automations** in Seampify and create a new automation.
+{% endstep %}
+
+{% step %}
+#### **Configure the Trigger**
+
+Select **New Incoming Message** as the trigger and set the trigger condition to **All messages (no filter)**.
+{% endstep %}
+
+{% step %}
+#### **Add an Assign Agent Node**
+
+Add an **Assign Agent** node and connect it to the Trigger node.
+
+Under **Assign to**, select **Specific user** and choose your name or the agent you wish to assign conversations to.
+
+You can also configure the following optional settings:
+
+* **Don't assign if already assigned:** Skip conversations that already have an assigned agent.
+* **Only assign during working hours:** Assign conversations based on the channel's configured working hours.
+{% endstep %}
+
+{% step %}
+#### **Save and Activate the Automation**
+
+Click **Save** to save the node settings.
+
+Validate your automation, publish your changes and ensure that the automation is active.
+{% endstep %}
+{% endstepper %}
+
+Once configured, incoming conversations that meet the trigger conditions will be automatically assigned to the selected user.
+
+For more details on setting up automations, refer to the Seampify Automation Guide.
+
+<figure><img src="../../.gitbook/assets/Why I Didn&#x27;t Receive Notification on Seampify App.gif" alt=""><figcaption></figcaption></figure>
 
 For more details on setting up automations, refer to the [Seampify Automation Guide.](../../seampifys-modules/automations/)
 
-## **4.  Manually Assign User to Chat**
+***
 
-If you prefer to manually assign users to chats, follow these steps:
+## **4.** Manually Assign Users to Conversations
 
-1. **Go to Chats:**
-   * Navigate to the **Chats** section in your app.
-2. **Select Any Chat:**
-   * Click on any chat you want to assign.
-3. **Assign Agent:**
-   * In the right panel, click on **Assigned Agent**.
-   * Click on **Your Name** to assign yourself to the chat.
+If you prefer to manually assign yourself to a conversation, follow these steps:
 
-Once assigned, any new incoming message to this conversation, a notification should be triggered on your Seampify app.
+{% stepper %}
+{% step %}
+#### **Go to Inbox**
+
+Navigate to **Inbox** in Seampify.
+{% endstep %}
+
+{% step %}
+#### **Select a Conversation**
+
+Open the conversation you wish to assign.
+{% endstep %}
+
+{% step %}
+#### **Assign Yourself**
+
+In the right-hand panel, under **Conversation Actions**, locate **Assigned Agent**.
+
+Click **Assign to me** to assign the conversation to yourself.
+
+<figure><img src="../../.gitbook/assets/image (369).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+Once assigned, you should receive notifications on your Seampify app when new incoming messages are received in the conversation, provided your app notifications are enabled.

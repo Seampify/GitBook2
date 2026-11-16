@@ -1,132 +1,168 @@
-# How to Setup CTWA ads from Ads Manager
+# How to Set Up CTWA Ads from Ads Manager
 
-Click to WhatsApp Ads (CTWA) is a created ads that can direct your customers to your Business WhatsApp number.
+Click-to-WhatsApp Ads (CTWA) are advertisements on Facebook or Instagram that direct customers to your business's WhatsApp number.
 
-Before you can create an ads to your dedicated WhatsApp number that is connected to Seampify, make sure you have your WhatsApp number that is already connected to your Facebook page or business portfolio.\
-\
-If you have not connect, refer to the guide below. Else, you may [skip to Step 1.](how-to-setup-ctwa-ads-from-ads-manager.md#step-1-go-to-a-ds-manager)
+Before creating an ad for your WhatsApp business number connected to Seampify, ensure that your number is linked to your Facebook Page or business portfolio.
+
+If you have not connected your number, refer to the guide below. Otherwise, proceed to Step 1.
 
 {% content-ref url="connecting-waba-number-to-facebook-page-to-perform-ads.md" %}
 [connecting-waba-number-to-facebook-page-to-perform-ads.md](connecting-waba-number-to-facebook-page-to-perform-ads.md)
 {% endcontent-ref %}
 
+***
+
 ## Step 1: Setting Up Ads
 
-You can access your Ads Manager [here](https://www.facebook.com/business/tools/ads-manager).<br>
+You can access [Meta Ads Manager here](https://www.facebook.com/business/tools/ads-manager).
 
 <figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
-Next, press the **Go to Ads Manager**.
+Next, click **Go to Ads Manager.**
 
-### Create Ads
+#### i. Create Ads
 
-Hover on the left panel and go to **Campaign**.
+On the left panel, navigate to **Campaigns**.
 
 <figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
-Go to the **Ads** tab, the press **Create**.
+Click **Create** to start a new advertising campaign.
 
 <figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
-## Step 2: Setup campaign details.
+***
 
-### Setup Campaign Objective
+## Step 2: Set Up Campaign Details
 
-Firstly, select the objective **Leads**
+#### i. Set Up Campaign Objective
+
+First, select **Leads** as your campaign objective.
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-Click **Continue**.<br>
+Click **Continue**.
 
 <figure><img src="../../.gitbook/assets/image (73).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Name your campaign
+#### ii. Name Your Campaign
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+Enter a name for your campaign to help you identify and manage it later.
 
-### In Conversions, select WhatsApp.
+<figure><img src="../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
 
-Under Conversions, you can select WhatsApp as your destination and choose the phone number that has connected to your Page. [Refer this guide](connecting-waba-number-to-facebook-page-to-perform-ads.md) if you couldn't see the number you wish to select.
+#### iii. Under Conversions, Select WhatsApp
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+Under **Conversions**, select **WhatsApp** as your messaging destination.
 
-### Set your Budget and Schedule.
+Choose the Facebook Page and WhatsApp business phone number you want to use for the campaign.
 
-You can set your budget for the campaign.<br>
+If your number is unavailable, refer to [Connecting WABA Number to Facebook Page to Perform Ads](https://seampify.gitbook.io/seampify/useful-guides/messaging-limits-for-click-to-whatsapp-ads-ctwa/connecting-waba-number-to-facebook-page-to-perform-ads).
+
+{% hint style="info" %}
+**Note:** Depending on your Ads Manager interface, this setting may appear under **Conversion Location**, **Messaging Apps**, or **Message Destinations**.
+{% endhint %}
+
+#### iv. Set Your Budget and Schedule
+
+Set your advertising budget based on your campaign requirements.
 
 <figure><img src="../../.gitbook/assets/image (76).png" alt="" width="554"><figcaption></figcaption></figure>
 
-Next, you can set your schedule for the campaign. You can plan when your campaign starts as well as when it will end.\
-![](<../../.gitbook/assets/image (77).png>)
+Next, configure your campaign schedule, including its start and end dates.
 
-### Define your audience.
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+#### v. Define Your Audience
 
 <figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
-You can set your target audience for your ads by Gender, Age, Target Industry and Language.<br>
+Select the target audience you want your advertisements to reach.
 
 <figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+
+Depending on the available targeting options, you can define your audience by:
+
+* **Location:** Countries, states, or cities where your customers are located.
+* **Age:** The age range of your target audience.
+* **Gender:** The gender of your target audience.
+* **Detailed Targeting:** Relevant interests, behaviours, or other available audience criteria.
+* **Language:** The languages used by your intended audience.
 
 <figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
-Once the Campaign has done setup, click **Next**.
+Once you have completed your campaign and audience settings, click **Next**.
 
 <figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
-## Step 3: Create your Ads set.
+***
 
-Now, you need to update your Ads set where you can design how your ads will look like here.
+## Step 3: Set Up Your Ad
 
-### Setup Ad Name
+In this section, you can configure how your advertisement will appear to customers on Facebook and Instagram.
 
-First, setup your Ad Name.
+#### i. Set Up Ad Name
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+Enter a name for your advertisement to help you identify it in Ads Manager.
 
-### Setup Ad Setup
+<figure><img src="../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
 
-Choose your ad format - Single image or video / Carousel.
+#### ii. Set Up Ad Format
+
+Choose the format for your advertisement, such as:
+
+* **Single Image or Video**
+* **Carousel**
 
 <figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
-### Setup Creatives
+#### iii. Set Up Creatives
 
-Then, select Set up creatives and choose your media for the ads.\
-![](<../../.gitbook/assets/image (68).png>)
+Click **Set Up Creative** and select the images or videos you want to use in your advertisement.
 
-Check and edit your Ads crop placement (if need to).
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Review and adjust the image cropping for different ad placements, if necessary.
 
 <figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
-Add Text to your visual.\
-![](<../../.gitbook/assets/image (69).png>)
+Add your advertisement text, headline, and other relevant details.
 
-Once you are done with creating your ads, you can press **Done**.
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Once you have completed your creative setup, click **Done**.
 
 <figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
-### Setup pre-filled message for CTWA
+#### iv. Set Up a Pre-Filled Message for CTWA
 
-You can scroll down and look for **Message Template**. Then press Edit to edit the details.
+Scroll down to the **Message Template** section and click **Edit**.
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
 
-You may then edit the pre-filled message here. Click **Save** once done filling up the informations.
+You can customise the pre-filled message that customers will see when they open WhatsApp through your advertisement.
+
+Enter your preferred message and click **Save**.
 
 {% hint style="warning" %}
-This is the keyword you may used to trigger the specific automation in Seampify.
+**Warning:** You can use the pre-filled message as a keyword to trigger a specific automation in Seampify.
+
+Ensure the message matches the keyword configured in your automation. The automation will only trigger after the customer sends the message, not simply by clicking the advertisement.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (347).png" alt=""><figcaption></figcaption></figure>
 
-## Step 4: Publish ads.
+***
 
-You can see the preview for the ads under **Ads Preview**.
+## Step 4: Publish Ads
+
+You can review how your advertisement will appear under **Ad Preview**.
 
 <figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
 
-Once you are satisfied with it, you can press **Publish**.
+Once you are satisfied with your campaign settings, ad creative, and message template, click **Publish**.
 
-Next, [learn how to develop an auto reply for your ads.](how-to-trigger-automation-from-ctwa-ads.md)<br>
+Your advertisement will be submitted to Meta for review before it can begin running.
+
+After publishing your CTWA campaign, you can set up an automated response in Seampify to manage incoming customer enquiries.

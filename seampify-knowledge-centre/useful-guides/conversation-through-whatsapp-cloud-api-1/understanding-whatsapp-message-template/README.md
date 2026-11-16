@@ -26,7 +26,7 @@ layout:
 
 WhatsApp Message Templates allow businesses to stay connected with customers even after the 24-hour customer service window has closed.
 
-## What's WhatsApp Message Templates?
+## 1. What's WhatsApp Message Templates?
 
 WhatsApp message templates are pre-approved messages used for [marketing, utility, and authentication purposes](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/). Unlike regular messages, approved templates can be sent outside the 24-hour customer service window.
 
@@ -39,7 +39,9 @@ Businesses can create message templates directly in Seampify. However, the follo
 
 Once a message template is approved and these requirements are met, it can be sent through Seampify.
 
-## Types of Message Template <a href="#types-of-message-template" id="types-of-message-template"></a>
+***
+
+## 2. Types of Message Template <a href="#types-of-message-template" id="types-of-message-template"></a>
 
 WhatsApp Business Platform supports 3 message template categories -
 
@@ -60,7 +62,7 @@ For example, an order confirmation should include specific information such as a
 #### Authentication Templates
 
 {% hint style="warning" %}
-Only authentication templates can be used to send one-time passcodes (OTPs) for identity verification. Marketing and utility templates cannot be used for this purpose.
+**Important:** Only authentication templates can be used to send one-time passcodes (OTPs) for identity verification. Marketing and utility templates cannot be used for this purpose.
 {% endhint %}
 
 Authentication templates allow businesses to verify users through one-time passcodes, such as during account registration, login, or account recovery.
@@ -75,7 +77,9 @@ To create an authentication template, businesses must:
 [message-templates-example.md](message-templates-example.md)
 {% endcontent-ref %}
 
-## Setting Up a Message Template <a href="#limitations" id="limitations"></a>
+***
+
+## 3. Setting Up a Message Template <a href="#limitations" id="limitations"></a>
 
 Before sending a template message, you must [create a message template](../../../seampifys-modules/settings/more-settings/channels/manage-templates/#create-a-template-messages) in Seampify and submit it to Meta for approval.
 
@@ -85,15 +89,19 @@ For detailed instructions, refer to the guide below.
 [manage-templates](../../../seampifys-modules/settings/more-settings/channels/manage-templates/)
 {% endcontent-ref %}
 
-## How Long until My Template is Approved?
+***
+
+## 4. How Long until My Template is Approved?
 
 Once submitted, your message template will be reviewed by Meta. Approval typically takes a few minutes but may take up to 24 hours or longer in some cases.
 
 {% hint style="warning" %}
-Seampify is not directly involved in Meta's template approval process. If your template remains pending for more than 24 hours, please contact our support team. We can assist you in raising a support ticket with Meta to check its status.
+**Important:** Seampify is not directly involved in Meta's template approval process. If your template remains pending for more than 24 hours, please contact our support team. We can assist you in raising a support ticket with Meta to check its status.
 {% endhint %}
 
-## Sending a Message Template
+***
+
+## 5. Sending a Message Template
 
 There are three ways to send an approved message template through Seampify:
 
@@ -102,10 +110,12 @@ There are three ways to send an approved message template through Seampify:
 3. And using [Campaign](../../../seampifys-modules/campaigns/bulk-broadcast-via-campaign.md)
 
 {% hint style="success" %}
-Once your message template has been approved, you can follow the guides above to start sending it through Seampify.
+**Tip:** Once your message template has been approved, you can follow the guides above to start sending it through Seampify.
 {% endhint %}
 
-## Limitations of Message Templates <a href="#limitations" id="limitations"></a>
+***
+
+## 6. Limitations of Message Templates <a href="#limitations" id="limitations"></a>
 
 WhatsApp message templates are subject to Meta's requirements and limitations:
 
@@ -120,7 +130,9 @@ For [verified businesses](https://www.facebook.com/business/help/109566147394687
 
 These limitations are subject to Meta's latest policies and account eligibility requirements.
 
-## Best Practices for Marketing Templates <a href="#best-practices-for-marketing-templates" id="best-practices-for-marketing-templates"></a>
+***
+
+## 7. Best Practices for Marketing Templates <a href="#best-practices-for-marketing-templates" id="best-practices-for-marketing-templates"></a>
 
 #### Marketing Opt-Out Button <a href="#marketing-opt-out-button" id="marketing-opt-out-button"></a>
 

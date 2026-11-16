@@ -1,40 +1,64 @@
-# How to trigger Automation from CTWA ads
+# How to Trigger Automation from CTWA Ads
 
-This is a guide to show you an example on how to trigger an automation from [Clicks-To-WhatsApp-Ads (CTWA)](how-to-setup-ctwa-ads-from-ads-manager.md).
+This guide explains how to trigger an automation in Seampify when a customer sends a message through [Click-to-WhatsApp Ads (CTWA)](https://seampify.gitbook.io/seampify/useful-guides/messaging-limits-for-click-to-whatsapp-ads-ctwa/how-to-setup-ctwa-ads-from-ads-manager).
 
-After creating an automation, you need to set up the trigger. There are 2 ways on how you can trigger the automation for your CTWA ads.
+After creating your automation, you need to configure its trigger conditions.
 
-1. [Pre-filled message.](how-to-trigger-automation-from-ctwa-ads.md#how-to-trigger-automation-using-ctwa-a-ds-pre-filled-message)
-2. [Ad ID.](how-to-trigger-automation-from-ctwa-ads.md#how-to-trigger-automation-using-ctwa-a-ds-id)
+There are two ways to trigger an automation from CTWA ads:
+
+1. [Using a Pre-Filled Message](how-to-trigger-automation-from-ctwa-ads.md#how-to-trigger-automation-using-ctwa-a-ds-pre-filled-message)
+2. [Using an Ad ID](how-to-trigger-automation-from-ctwa-ads.md#how-to-trigger-automation-using-ctwa-a-ds-id)
 
 {% hint style="info" %}
-If you have not setup an automation, [you may view here on how to import Automation template](../../seampifys-modules/automations/import-automation-template/)
+I**nfo:** If you have not created an automation, refer to [How to Import an Automation Template](https://seampify.gitbook.io/seampify/seampifys-modules/automations/import-automation-template).
 {% endhint %}
 
-### How to trigger automation using CTWA ads pre-filled message.
+***
 
-Double click on the trigger nodes and setup as follows:\
-Trigger Condition: **Message text include any of keywords** \
-Text keywords: \<pre-filled message you have set>
+## 1. How to Trigger Automation Using a CTWA Pre-Filled Message
+
+Double-click the **Trigger Node** in your automation and configure the following settings:
+
+* **Trigger Condition:** Message text include any of keywords
+* **Text Keywords:** Enter the pre-filled message configured in your CTWA ad.
 
 <figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-Click here to learn how to [setup pre-filled message for CTWA](how-to-setup-ctwa-ads-from-ads-manager.md#setup-pre-filled-message-for-ctwa)
+**Tip:** [Click here to learn how to set up a pre-filled message for CTWA ads.](https://seampify.gitbook.io/seampify/useful-guides/messaging-limits-for-click-to-whatsapp-ads-ctwa/how-to-setup-ctwa-ads-from-ads-manager#setup-pre-filled-message-for-ctwa)
 {% endhint %}
 
-### How to trigger automation using CTWA ads ID.
+{% hint style="info" %}
+**Note:** The automation is triggered when the customer sends a message containing the configured keyword. Simply clicking the ad does not trigger the automation.
+{% endhint %}
 
-Another way to trigger an automation is by using Ads ID. You can get this ID from your ads manager links.\
-\
-For example: [https://adsmanager.facebook.com/adsmanager/manage/ads/edit/standalone?act=XX\&business\_id=XX\&global\_scope\_id=XX\&date=XX\&insights\_date=XX\&selected\_campaign\_ids=XX&**selected\_ad\_ids=XX**\&sort=spend\~0\&current\_step=0](https://adsmanager.facebook.com/adsmanager/manage/ads/edit/standalone?act=247145454636129\&business_id=101178246298689\&global_scope_id=101178246298689\&date=2025-08-23_2025-09-22%2Clast_30d\&insights_date=2025-08-23_2025-09-22%2Clast_30d\&selected_campaign_ids=120231752139340766\&selected_ad_ids=120231755884990766\&sort=spend~0\&current_step=0) where u can get the ID from **selected\_ad\_ids**.
+***
 
-After that, you need to set your trigger as follow:\
-Trigger Condition: **Custom Condition**\
-Payload Key: **Referral Source Id**
+## 2. How to Trigger Automation Using a CTWA Ad ID
 
-Operator: **Is Any One**
+Another way to trigger an automation is by using the **Ad ID** from Meta Ads Manager.
 
-Match String: **\<your\_ads\_id>**
+You can find the Ad ID in your advertisement's details or Ads Manager URL.
+
+For example, an Ads Manager URL may contain:
+
+`selected_ad_ids=123456789012345`
+
+In this example, `123456789012345` is the Ad ID.
+
+Once you have identified your Ad ID, double-click the **Trigger Node** and configure the following settings:
+
+* **Trigger Condition:** Custom Condition
+* **Payload Key:** Referral Source Id
+* **Operator:** Is Any One
+* **Match String:** Enter your Ad ID.
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
+
+This allows Seampify to trigger the automation when a customer sends a message originating from the specified CTWA ad.
+
+{% hint style="info" %}
+**Note:** The Ad ID method relies on referral information provided by Meta when a customer initiates a conversation through an eligible CTWA ad.
+{% endhint %}
+
+Make sure your automation is saved and activated before testing it.

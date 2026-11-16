@@ -1,88 +1,154 @@
 # Broadcasting Opt In/Opt Out
 
-Businesses are required to opt-in before messaging people on WhatsApp.&#x20;
+Businesses are required to obtain opt-in permission before sending messages to people on WhatsApp.
 
-As per the November 2024 [WhatsApp Business Messaging Policy](https://business.whatsapp.com/policy?fbclid=IwZXh0bgNhZW0CMTEAAR3NGSZOEKEUwiIIUazsRojxOuZMQ8SSuQ1AP8jTSfagdSFS57sqfc593Es_aem_FmOT2YGENWev5t_SCVNd2Q) update, before messaging people on WhatsApp, businesses are required to obtain opt-in permission, which can be general and not specifically for WhatsApp, as long as businesses comply with all local laws. Businesses may contact people on WhatsApp if: (a) they have given their mobile phone number; and (b) businesses have received opt-in permission from the recipient confirming that they wish to receive subsequent messages or calls from a particular business.
+As per the WhatsApp Business Messaging Policy, businesses must obtain opt-in permission before contacting people on WhatsApp. This permission does not have to be specifically for WhatsApp, provided that businesses comply with applicable local laws.
 
+Businesses may contact people on WhatsApp if:
 
+* They have provided their mobile phone number or WhatsApp username.
+* They have given permission to receive subsequent messages or calls from the business.
 
-## Requirements
+For more information, refer to the [WhatsApp Business Messaging Policy](https://whatsappbusiness.com/policy/).
 
-Businesses must follow the below requirements when obtaining opt-in:
+***
 
-* Businesses must clearly state that a person is opting in to receive communication from the business
-* Businesses must clearly state the business's name that a person is opting in to receive messages from
-* Businesses must comply with applicable law
+## 1. Requirements
 
+Businesses must follow the requirements below when obtaining opt-in:
 
+* Clearly state that a person is opting in to receive communications from the business.
+* Clearly state the name of the business they are opting in to receive messages from.
+* Comply with applicable laws and regulations.
 
-## Opt-in methods
+***
 
-It is up to businesses to determine the method of opt-in, that they have obtained opt-in in a manner that complies with laws applicable to their communications, and that they have otherwise provided notices and obtained permissions that are required under applicable law.
+## 2. Opt-In Methods
 
-As long as the opt-in method meets the above requirements, it will be policy compliant. The following are examples of supported opt-in methods:
+Businesses are responsible for determining how to obtain opt-in permission in a manner that complies with applicable laws, including providing the necessary notices and obtaining the required permissions.
+
+As long as the opt-in method meets the requirements above, businesses may obtain opt-in through various methods, including:
 
 * SMS
 * Website
-* By phone (using an interactive voice response (IVR) flow)
-* In person or on paper (customer can sign a physical document to opt-in)
+* Phone calls using an interactive voice response (IVR) flow
+* In person or on paper, such as signing a physical document
+* WhatsApp conversations
 
+***
 
+## 3. Helpful Tips
 
-## Helpful tips
+Businesses should continue to improve the customer experience when obtaining opt-in permission.
 
-Businesses should continue to optimize for the user experience while obtaining opt-in. For example:
+Users should expect the messages they receive. Businesses can set this expectation by:
 
-* Users should expect the messages they receive. Businesses can set this expectation by:
-  * Obtaining an opt-in that encompasses the different categories of messages that a business will send (ex: order updates, relevant offers, product recommendations, etc.).
-  * Obtaining separate opt-in by specific message category. This mitigates the risk that users will block your business because they receive unsolicited messages.
-  * Provide clear instructions for how people can opt out of receiving specific categories of messages, and honor these requests.
-  * Ensure opt-in and opt-out flows are clear and intuitive for users.
-* Businesses should clearly communicate the value of receiving this information.
-* Businesses should monitor quality rating, especially when rolling out new opt-in methods.
+* Obtaining opt-in permission that covers the different categories of messages they intend to send, such as order updates, relevant offers and product recommendations.
+* Obtaining separate opt-in permission for specific message categories to reduce the risk of users receiving unwanted messages.
+* Providing clear instructions on how users can opt out of receiving messages and respecting their requests.
+* Ensuring that opt-in and opt-out flows are clear and easy to use.
+* Clearly communicating the benefits of receiving messages from the business.
+* Monitoring the phone number's quality rating, especially when introducing new opt-in methods.
 
+***
 
+## 4. Maintaining High Quality
 
-## Maintaining High Quality
+Maintaining high-quality conversations between businesses and customers is a priority.
 
-Driving high-quality conversations between people and businesses is still a top priority. People can share feedback with WhatsApp or choose to stop receiving offers and announcements messages on WhatsApp from a particular business. People can also block or report a business. Our systems will rate limit businesses if the business's quality is low for a sustained period of time. We may also reactively evaluate user feedback to flag policy violations and develop additional types of enforcement over time.
+WhatsApp users can provide feedback on messages, stop receiving offers and announcements, or block and report a business.
 
+Meta may restrict messaging capabilities if a business receives significant negative feedback or consistently delivers a poor customer experience.
 
+***
 
-## How to setup Opt-in / Opt-out message
+## 5. How to Set Up an Opt-In / Opt-Out Message
 
-To ensure that we can have a high quality rating score, we need to include an opt-in/opt-out message for customers to make a decision. Luckily, we have setup an automation that can assist you with this. Below, we will show you the steps to take in order to set it up.
+To maintain a high-quality rating and respect customer preferences, businesses should provide customers with a simple way to subscribe to or unsubscribe from broadcast messages.
 
+In Seampify, you can set up an automation to manage these requests automatically.
 
+There are two ways to set up your Opt-in / Opt-out automation.
 
-**Step 1:**
+### i. Method 1: Create an Automation
 
-First, navigate to the Automation tab.
+{% stepper %}
+{% step %}
+Navigate to **Automations** and click **Create Automation**.
 
-<figure><img src="../../.gitbook/assets/opt in1.1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (386).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-**Step 2:**
+{% step %}
+Enter the automation name, such as "Opt in / Opt Out".
 
-Press "Import Automation Template".
+Select the WhatsApp channel where the automation should run and configure the priority order.
 
-<figure><img src="../../.gitbook/assets/opt in1.2.png" alt=""><figcaption></figcaption></figure>
+Click **Next: Choose trigger**.
 
-**Step 3:**
+<figure><img src="../../.gitbook/assets/image (387).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-Find the "General" Tab and scroll down to locate the Opt In/Opt out automation. Once found, press preview to open up the automation.
+{% step %}
+Select **New Incoming Message** as the trigger and click **Use this trigger**.
 
-<figure><img src="../../.gitbook/assets/opt in2.1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (388).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-<figure><img src="../../.gitbook/assets/opt in3.png" alt=""><figcaption></figcaption></figure>
+{% step %}
+Configure the automation flow.
 
-**Step 4:**
+Set up your trigger conditions using **Exact keyword match**. For example:
 
-After you open the automation, you can see the flow of the automation. Now, press "Import" from the top right corner.
+* Subscribe: Triggers when a customer sends "Subscribe".
+* Unsubscribe: Triggers when a customer sends "STOP" or "unsubscribe".
 
-<figure><img src="../../.gitbook/assets/opt in4.png" alt=""><figcaption></figcaption></figure>
+Add the necessary Send Message and Set Contact Attributes nodes to manage the customer's subscription preference.
 
-**Step 5:**&#x20;
+Configure the appropriate actions to update the customer's subscription status and send a confirmation message.
 
-Enter the desired name for the automation and choose the channel you want in to be in. Then, set the automation as New Incoming Message. Remember to press the "Play" button to allow the automation to run.
+<figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/opt in5.png" alt=""><figcaption></figcaption></figure>
+{% hint style="warning" %}
+**Reminder:** Ensure that opt-out requests are respected immediately and that unsubscribed contacts are excluded from subsequent broadcasts. Customers who have requested to unsubscribe should not be required to confirm their decision again.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+Save and validate your automation. Once everything is configured correctly, publish the automation and ensure that it is active.
+
+Customers can now subscribe to or unsubscribe from receiving broadcast messages based on the configured automation.
+{% endstep %}
+{% endstepper %}
+
+### ii. Method 2: Import an Existing Automation
+
+If you already have an exported Opt-in / Opt-out automation file, you can import it into Seampify instead of creating the automation manually.
+
+{% stepper %}
+{% step %}
+Navigate to Automations, click the dropdown beside Create Automation and select Classic mode (3-step).
+
+<figure><img src="../../.gitbook/assets/image (389).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+Enter your automation name.
+
+Under **Import from JSON**, click **Choose file** and upload your existing Opt-in / Opt-out automation file.
+
+<figure><img src="../../.gitbook/assets/image (390).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+Complete the import and review the automation's settings.
+
+Ensure that the selected channel, trigger conditions and subscription status settings are configured correctly.
+
+Validate and publish the automation when you are ready.
+
+{% hint style="info" %}
+**Note:** When importing an automation from JSON, the channel IDs included in the file must already exist in your workspace.
+{% endhint %}
+{% endstep %}
+{% endstepper %}

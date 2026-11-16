@@ -6,13 +6,13 @@ When using Seampify to communicate with customers through the WhatsApp Business 
 
 This guide explains how these charges work, when messages are free, and how to estimate your messaging costs.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Last updated: 22 October 2026**
 
 **Important:** The pricing below refers to Meta's WhatsApp Business Platform charges, not Seampify's subscription or platform fees. Meta may revise its rates and billing policies. Always refer to the [official Meta pricing page](https://whatsappbusiness.com/products/platform-pricing/) for the latest rates.
 {% endhint %}
 
-### 1. How Does WhatsApp Business API Pricing Work?
+## 1. How Does WhatsApp Business API Pricing Work?
 
 Meta uses a **per-message pricing model**, meaning businesses are charged according to the type and number of messages successfully delivered to customers.
 
@@ -26,9 +26,11 @@ For example, a message delivered to a Malaysian number (+60) follows Malaysia's 
 
 This applies regardless of where your business is located.
 
-\[Image]
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-### 2. WhatsApp Message Categories
+***
+
+## 2. WhatsApp Message Categories
 
 Meta classifies WhatsApp Business Platform messages into four categories.
 
@@ -41,7 +43,7 @@ Meta classifies WhatsApp Business Platform messages into four categories.
 
 Each category has different pricing rules.
 
-#### Marketing Messages
+#### i. Marketing Messages
 
 Marketing messages are used to promote products, services, campaigns, or offers.
 
@@ -51,7 +53,7 @@ Marketing messages generally require an approved WhatsApp message template and a
 
 **Marketing template messages are charged per delivered message**, unless a qualifying free-entry-point window applies.
 
-#### Utility Messages
+#### ii. Utility Messages
 
 Utility messages provide important information relating to a customer's existing transaction, account, or request.
 
@@ -61,13 +63,13 @@ Utility messages must not contain unrelated promotional content.
 
 From 1 October 2026, utility templates are generally chargeable even when sent within an open 24-hour customer service window, except when a qualifying free-entry-point benefit applies.
 
-#### Authentication Messages
+#### iii. Authentication Messages
 
 Authentication messages are used to verify a customer's identity, typically through one-time passwords (OTPs).
 
 These messages use approved authentication templates and are charged per delivered message.
 
-#### Service Messages
+#### iv. Service Messages
 
 Service messages are non-template replies sent when a customer has initiated a conversation and the 24-hour customer service window is open.
 
@@ -77,7 +79,9 @@ These can include replies sent by your team through Seampify Inbox or by an auto
 
 We explain this further in Section 4.
 
-### 3. WhatsApp Business API Pricing for Singapore and Malaysia
+***
+
+## 3. WhatsApp Business API Pricing for Singapore and Malaysia
 
 The following are Meta's standard list rates for customers with Singapore (+65) and Malaysia (+60) phone numbers, based on rate cards applicable from 1 October 2026.
 
@@ -98,7 +102,9 @@ The following are Meta's standard list rates for customers with Singapore (+65) 
 
 You can also view Meta's latest rate cards on its [official WhatsApp pricing page](https://whatsappbusiness.com/products/platform-pricing/).
 
-### 4. Understanding Service Message Pricing (Effective 1 October 2026)
+***
+
+## 4. Understanding Service Message Pricing (Effective 1 October 2026)
 
 Previously, businesses could send free-form customer service replies during an open 24-hour customer service window without Meta messaging charges.
 
@@ -154,7 +160,9 @@ For example, an AI agent sending one answer in five separate message bubbles may
 
 Businesses should therefore aim for clear, concise responses rather than unnecessarily splitting answers into multiple messages.
 
-### 5. Understanding the 24-Hour Customer Service Window
+***
+
+## 5. Understanding the 24-Hour Customer Service Window
 
 When a customer messages your business, Meta opens a **24-hour customer service window**.
 
@@ -172,9 +180,13 @@ If the customer replies again at 3:00 PM on Monday, the window is extended until
 
 After the window closes, your business must use an approved WhatsApp message template to initiate further messaging.
 
+{% hint style="warning" %}
 **Important:** An open 24-hour window does not automatically mean all business replies are free. The service-message and template-message pricing rules still apply.
+{% endhint %}
 
-### 6. When Can WhatsApp Messages Be Free?
+***
+
+## 6. When Can WhatsApp Messages Be Free?
 
 Although Meta generally charges per delivered message, some messaging scenarios remain free.
 
@@ -208,7 +220,9 @@ For example:
 
 Please note that advertising costs for Click-to-WhatsApp campaigns are separate from WhatsApp messaging fees.
 
-### 7. WhatsApp Calling API Pricing
+***
+
+## 7. WhatsApp Calling API Pricing
 
 Seampify may support WhatsApp calling features for eligible connected business numbers.
 
@@ -222,7 +236,9 @@ Before enabling WhatsApp calling, review the applicable rates and feature availa
 
 For current calling rates, please refer to Meta's official business messaging documentation.
 
-### 8. How to Estimate Your Monthly WhatsApp Messaging Costs
+***
+
+## 8. How to Estimate Your Monthly WhatsApp Messaging Costs
 
 You can estimate your Meta messaging expenses using the number of chargeable delivered messages in each category.
 
@@ -244,7 +260,9 @@ This illustration assumes all chargeable messages are successfully delivered, no
 
 Your actual billing may vary depending on message category, recipient location, volume tier, and any free-entry-point eligibility.
 
-### 9. Meta Charges vs. Seampify Charges
+***
+
+## 9. Meta Charges vs. Seampify Charges
 
 It is important to understand that **Meta messaging charges and Seampify platform charges are separate**.
 
@@ -260,51 +278,93 @@ Your Seampify subscription does not automatically mean that all Meta WhatsApp me
 
 For details about your Seampify subscription, included features, and any additional platform charges, refer to your Seampify quotation or contact our support team.
 
-### 10. Frequently Asked Questions
+***
 
-#### Is WhatsApp Business API free?
+## 10. Frequently Asked Questions
+
+<details>
+
+<summary>Is WhatsApp Business API free?</summary>
 
 The WhatsApp Business Platform does not charge a separate Meta licence fee for accessing its messaging API, but messaging usage can incur charges.
 
 Some messages qualify for free allowances or special free-entry-point arrangements.
 
-#### Do I get 1,000 free conversations per month?
+</details>
+
+<details>
+
+<summary>Do I get 1,000 free conversations per month?</summary>
 
 No. From 1 October 2026, the relevant free allowance is **1,000 delivered service messages per business phone number per month**, not 1,000 conversations.
 
-#### Will I be charged when a customer messages my business?
+</details>
+
+<details>
+
+<summary>Will I be charged when a customer messages my business?</summary>
 
 No. Messages received from customers are free. Charges may apply when your business responds.
 
-#### Are messages sent by automation or AI agents free?
+</details>
+
+<details>
+
+<summary>Are messages sent by automation or AI agents free?</summary>
 
 Not necessarily. Non-template replies sent by an automation or AI agent are generally subject to the same service-message rules as manually written replies.
 
-#### Can I send marketing messages during the 24-hour customer service window for free?
+</details>
+
+<details>
+
+<summary>Can I send marketing messages during the 24-hour customer service window for free?</summary>
 
 Marketing templates are generally chargeable even when the customer service window is open, unless a qualifying free-entry-point window or another applicable exemption applies.
 
-#### Does the 1,000-message allowance apply to marketing broadcasts?
+</details>
+
+<details>
+
+<summary>Does the 1,000-message allowance apply to marketing broadcasts?</summary>
 
 No. The allowance applies to service messages, not marketing templates.
 
-#### Are unsuccessful messages charged?
+</details>
+
+<details>
+
+<summary>Are unsuccessful messages charged?</summary>
 
 Meta generally charges when a message is successfully delivered, not merely when your business attempts to send it.
 
-#### Why are Singapore and Malaysia message rates different?
+</details>
+
+<details>
+
+<summary>Why are Singapore and Malaysia message rates different?</summary>
 
 Meta sets different rates for different recipient markets. A message to a Singapore number uses Singapore's rates, while a message to a Malaysian number uses Malaysia's rates.
 
-#### Can Meta change these prices?
+</details>
+
+<details>
+
+<summary>Can Meta change these prices?</summary>
 
 Yes. Meta may update its pricing, message category rules, discounts, and free-message allowances.
 
 For the latest information, always refer to Meta's official pricing documentation.
 
+</details>
+
 ***
 
 Learn more for each conversations from the links below:
+
+{% content-ref url="whatsapp-conversation-based-pricing/" %}
+[whatsapp-conversation-based-pricing](whatsapp-conversation-based-pricing/)
+{% endcontent-ref %}
 
 {% content-ref url="conversation-through-whatsapp-cloud-api-1/understanding-24-hour-customer-service-window.md" %}
 [understanding-24-hour-customer-service-window.md](conversation-through-whatsapp-cloud-api-1/understanding-24-hour-customer-service-window.md)
@@ -312,8 +372,4 @@ Learn more for each conversations from the links below:
 
 {% content-ref url="conversation-through-whatsapp-cloud-api-1/understanding-whatsapp-message-template/" %}
 [understanding-whatsapp-message-template](conversation-through-whatsapp-cloud-api-1/understanding-whatsapp-message-template/)
-{% endcontent-ref %}
-
-{% content-ref url="conversation-through-whatsapp-cloud-api-1/whatsapp-conversation-based-pricing/" %}
-[whatsapp-conversation-based-pricing](conversation-through-whatsapp-cloud-api-1/whatsapp-conversation-based-pricing/)
 {% endcontent-ref %}

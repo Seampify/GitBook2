@@ -2,13 +2,19 @@
 icon: file-circle-plus
 ---
 
-# Supported media types & sizes on WhatsApp Cloud API
+# Supported Media Types and Sizes on WhatsApp Cloud API
+
+The WhatsApp Business Platform supports various media formats, including images, videos, audio files, documents, and stickers.
+
+When sending media through Seampify, ensure your files meet WhatsApp Cloud API's supported formats and size limits.
 
 {% hint style="danger" %}
-The maximum supported file size for media messages on Cloud API is 100MB.
+**Warning:** The maximum supported file size for media messages on Cloud API is 100MB.
 {% endhint %}
 
-### Audio <a href="#audio" id="audio"></a>
+***
+
+### 1. Audio <a href="#audio" id="audio"></a>
 
 | Audio Type | Extension | MIME Type                                                   | Max Size |
 | ---------- | --------- | ----------------------------------------------------------- | -------- |
@@ -18,9 +24,9 @@ The maximum supported file size for media messages on Cloud API is 100MB.
 | MP4 Audio  | .m4a      | audio/mp4                                                   | 16 MB    |
 | OGG Audio  | .ogg      | audio/ogg (OPUS codecs only; base audio/ogg not supported.) | 16 MB    |
 
+***
 
-
-### Document <a href="#document" id="document"></a>
+### 2. Document <a href="#document" id="document"></a>
 
 | Document Type        | Extension | MIME Type                                                                 | Max Size |
 | -------------------- | --------- | ------------------------------------------------------------------------- | -------- |
@@ -33,9 +39,9 @@ The maximum supported file size for media messages on Cloud API is 100MB.
 | Microsoft PowerPoint | .pptx     | application/vnd.openxmlformats-officedocument.presentationml.presentation | 100 MB   |
 | PDF                  | .pdf      | application/pdf                                                           | 100 MB   |
 
+***
 
-
-### Image <a href="#image" id="image"></a>
+### 3. Image <a href="#image" id="image"></a>
 
 Images must be 8-bit, RGB or RGBA.
 
@@ -44,9 +50,9 @@ Images must be 8-bit, RGB or RGBA.
 | JPEG       | .jpeg     | image/jpeg | 5 MB     |
 | PNG        | .png      | image/png  | 5 MB     |
 
+***
 
-
-### Sticker <a href="#sticker" id="sticker"></a>
+### 4. Sticker <a href="#sticker" id="sticker"></a>
 
 WebP images can only be sent in [sticker messages](https://developers.facebook.com/docs/whatsapp/cloud-api/messages/sticker-messages).
 
@@ -55,9 +61,9 @@ WebP images can only be sent in [sticker messages](https://developers.facebook.c
 | Animated sticker | .webp     | image/webp | 500 KB   |
 | Static sticker   | .webp     | image/webp | 100 KB   |
 
+***
 
-
-### Video <a href="#video" id="video"></a>
+### 5. Video <a href="#video" id="video"></a>
 
 Only H.264 video codec and AAC audio codec supported. Single audio stream or no audio stream only.
 
@@ -66,4 +72,8 @@ Only H.264 video codec and AAC audio codec supported. Single audio stream or no 
 | 3GPP       | .3gp      | video/3gp | 16 MB    |
 | MP4 Video  | .mp4      | video/mp4 | 16 MB    |
 
-<br>
+{% hint style="warning" %}
+**Reminder:** Unsupported file formats or files exceeding the size limits may fail to upload or deliver.
+{% endhint %}
+
+For the latest requirements, refer to [Meta's WhatsApp Cloud API Media Reference](https://developers.facebook.com/docs/whatsapp/cloud-api/reference/media).

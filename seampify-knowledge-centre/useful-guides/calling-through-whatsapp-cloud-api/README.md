@@ -1,122 +1,144 @@
 # Calling through WhatsApp Cloud API
 
-In 15th July 2025, Meta have released the Cloud API Calling solution where brand can now initiate and receive calls with users on WhatsApp using voice-over-internet protocol (VoIP).
+On 15 July 2025, Meta introduced the Cloud API Calling solution, allowing businesses to make and receive WhatsApp voice calls using Voice over Internet Protocol (VoIP).
 
-## **Get Started with Cloud API Calling**
+***
 
-## Step 1: Prerequisites
+## **1. Get Started with Cloud API Calling**
 
-Before you get started with the Calling API, ensure that:
+### Prerequisites
 
-1. Your business number is in use with Cloud API (not the WhatsApp Business app)
-2. The business phone number should be in the Messaging Tier of at-least 2,000 (2K) messages. [More details about Messaging Tier Limit here](../messaging-limits-for-click-to-whatsapp-ads-ctwa/)
-3. Enable Calling features on your business phone number:
+Before getting started with the Calling API, ensure that:
+
+1. Your business phone number is registered on WhatsApp Cloud API, rather than using only the WhatsApp Business app.
+2. Your business portfolio has a messaging limit of at least **2,000 (2K) unique customers within a rolling 24-hour period**. [Learn more about messaging limits here](https://seampify.gitbook.io/seampify/useful-guides/broadcasting-through-whatsapp-cloud-api/broadcast-messaging-limit).
+3. Calling features are enabled for your business phone number.
+
+#### i. How to Enable Calling
 
 {% stepper %}
 {% step %}
-Go to Settings > Channels or [https://waba.seampify.com/settings/channels](https://waba.seampify.com/settings/channels). Then, click on the **General Settings** button of the Cloud API channel
+Go to **Channels** from the left-hand navigation menu in Seampify.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+Click **Settings** on the WhatsApp channel you wish to configure.
+
+<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-Click on the **Calls** tab and enable the Allow voice calls function.
+Click the **Calls** tab and enable **Allow voice calls**.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+Click **Save Settings** to apply your changes.
+
+<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
-Calling is not default enabled on a business phone number
+**Reminder:** Calling is not enabled by default on a WhatsApp business phone number.
 {% endhint %}
 
-## Step 2: Configure optional calling features
+***
 
-The WhatsApp Business Calling API offers a number of features that affect when and how calling features appear to users on your WhatsApp profile
+## 2. Configure Optional Calling Features
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-11-06 at 2.43.27 PM.png" alt=""><figcaption></figcaption></figure>
+The WhatsApp Business Calling API offers several settings that control when and how customers can call your business through WhatsApp.
 
-### Allow voice calls
+#### i. Allow voice calls
 
-This is the master function to enable or disable voice calls in your WhatsApp Account (WABA).
+This is the main setting for enabling or disabling voice calls on your WhatsApp business phone number.
 
-### Allow people to request a callback for missed calls
+<figure><img src="../../.gitbook/assets/image (379).png" alt=""><figcaption></figcaption></figure>
 
-When this is enabled, customer is able to request for a callback if you have missed the calls.
+#### ii. Display call buttons
 
-{% hint style="warning" %}
-The [Availaible call hours](./#available-call-hours) need to be set up for thos to work.
-{% endhint %}
-
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-### Display call buttons
-
-When Calling API features are enabled for a business number, you can still choose whether to show the call button icon or not by using the Display call buttons function.
+When Calling API features are enabled for your business phone number, you can choose whether to display the call button in WhatsApp using the **Display call buttons** setting.
 
 {% hint style="info" %}
-Note: Disabling call button icon visibility does not disable a WhatsApp user’s ability to make calls to your business.
+**Note:** Disabling call button visibility does not completely prevent WhatsApp users from calling your business through other supported entry points.
 {% endhint %}
 
-The behavior for supported options is as follows:
+The available options are as follows:
 
 **DEFAULT**
 
-The Call button icon will be displayed in the chat menu bar and the business info page, allowing for incoming calls to the business by WhatsApp users.
+The call button is displayed in the WhatsApp chat, allowing customers to initiate calls directly to your business.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (382).png" alt=""><figcaption></figcaption></figure>
 
 **DISABLE ALL**
 
-The call button icon is hidden in the chat menu bar and the business info page, and all other entry points external to the chat are also disabled. Consumers cannot make unsolicited calls to the business.
+The call button is hidden from the WhatsApp chat.
 
-Your business can still send interactive messages or template messages with a Calling API CTA button.
+Your business can still send interactive messages or message templates containing a WhatsApp Call Button, allowing selected customers to initiate calls.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (383).png" alt=""><figcaption></figcaption></figure>
 
-### **Available call hours**
+{% hint style="info" %}
+**Note:** Customers may still be able to call your business through other supported entry points, such as previous call records or call buttons in messages.
+{% endhint %}
 
-With the Available call hours setting, you can specify the timezone, business operating hours, and holiday schedules that will be enforced for all user-initiated calls.
+#### **iii. Available Call Hours**
 
-Configuring this setting restricts calls only to available weekly hours you configure. User-initiated calls are unavailable outside of the weekly hours and holiday schedules you set.
+The **Available Call Hours** setting allows you to specify your business's time zone, weekly operating hours, and holiday schedules for user-initiated calls.
 
-The WhatsApp client app will show users an option to chat with the business, or request a callback, if Allow people to request a callback for missed calls is ENABLED. The user will also be shown the next available calling slot on the option screen.
+When this setting is configured, customers can only initiate calls during your available operating hours.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+User-initiated calls will be unavailable outside your configured hours and on designated holidays.
 
-### Callback permissions
+During these periods, WhatsApp may offer customers the option to:
 
-Calling a WhatsApp user requires explicit permission from the user. One way to obtain calling permissions is to request permission when a WhatsApp user calls your business.
+* Send a message to your business.
+* Request a callback, if **Allow people to request a callback for missed calls** is enabled.
+* View the next available calling time.
 
-You can configure the call permission UI to automatically show in the WhatsApp user’s client app when they call your business number. The user may change their permission selection at any time.
+<figure><img src="../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+#### iv. Callback Permissions
 
-## Step 3: Make and receive calls
+Businesses must obtain explicit permission from a WhatsApp user before initiating a call.
 
-Cloud API Calling offers two call initiation paths:
+One way to obtain call permission is to request it when a customer calls your business.
 
-[**User-initiated calls:**](user-initiated-calls.md)\
-Calls that are made from a WhatsApp user to your business\
+You can configure the callback permission setting to automatically display a permission request in the customer's WhatsApp application after they call your business.
+
+Customers can change or revoke their call permissions at any time.
+
+<figure><img src="../../.gitbook/assets/image (385).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## 3. Make and Receive Calls
+
+Cloud API Calling supports two types of calls:
+
+[**User-Initiated Calls:**](user-initiated-calls.md)\
+Calls initiated by a WhatsApp user to your business.\
 \
-[**Business-initiated calls:**](business-initiated-calls.md)\
-Calls that are made from your business to a WhatsApp user<br>
+[**Business-Initiated Calls:**](business-initiated-calls.md)\
+Calls initiated by your business to a WhatsApp user. Customer permission is required before your business can initiate a call.
 
-## Availability
+User-initiated calls are free of Meta's calling connectivity charges, while business-initiated calls are subject to applicable calling charges.
 
-**User-initiated Calling (UIC)**\
-UIC is available in every location Cloud API is available
+For more information, refer to [Calling API Pricing](https://seampify.gitbook.io/seampify/useful-guides/calling-through-whatsapp-cloud-api/calling-api-pricing).
 
-**Business-initiated Calling (BIC)**\
-BIC is currently available in every location Cloud API is available, except the following countries:
+#### i. Availability
 
-USA\
-Canada\
-Turkey\
-Egypt\
-Vietnam\
-Nigeria<br>
+**User-Initiated Calling (UIC)**
+
+User-initiated calling is available in countries where WhatsApp Cloud API is supported, subject to Meta's applicable restrictions.
+
+**Business-Initiated Calling (BIC)**
+
+Business-initiated calling is currently available in countries where WhatsApp Cloud API is supported, except for the following:
+
+* United States (USA)
+* Canada
+* Türkiye (Turkey)
+* Egypt
+* Vietnam
+* Nigeria
 
 {% hint style="warning" %}
-Note: The business phone number’s country code must be in this supported list. The consumer phone number can be from any country where Cloud API is available.
+**Important:** Eligibility is determined by the country code of your WhatsApp business phone number. The customer's phone number can be from any country where WhatsApp Cloud API is supported.
 {% endhint %}

@@ -1,56 +1,309 @@
-# Phone Number Quality Rating
+# WhatsApp Usernames
 
-Your business phone number's status, quality rating, and messaging limits are displayed in the [**WhatsApp Manager**](https://business.facebook.com/wa/manage/home/) > **Account tools** > **Phone numbers** panel.
+WhatsApp is introducing usernames, an optional feature that allows businesses and customers to connect through a unique username instead of relying only on a phone number.
 
-Note that it is normal for numbers with high traffic to experience quality changes within short intervals (even within minutes).
+For businesses, a WhatsApp Business Username, such as **@Seampify**, makes it easier for customers to find and recognise your business.
 
+Customers can also use WhatsApp Usernames to communicate with businesses without necessarily sharing their phone numbers.
 
+{% hint style="info" %}
+**Note:** WhatsApp Usernames are being rolled out gradually. Availability may vary depending on your account and region.
+{% endhint %}
 
-## About your WhatsApp Business phone number’s quality rating
+***
 
-Your quality rating is a rating based on the recent messages that your customers have received over the past 7 days. This rating is determined by the feedback from your customers, such as the reason to block your phone number and other reporting issues.
+## 1. Overview
 
-You can find the quality rating below the Phone numbers tab in your Meta WhatsApp Manager. The Quality rating column displays the quality states, including:
+WhatsApp Usernames introduce two important changes:
 
-* Green: High quality
-* Yellow: Medium quality
-* Red: Low quality
+1. **Business Usernames:** Allow customers to find and contact businesses using a unique username.
+2. **Customer Usernames:** Allow customers to interact with businesses without necessarily revealing their phone numbers.
 
-You can become eligible for more features when your business maintains a High quality rating. When the user blocks your business, they can select a block reason, including No longer needed, Didn’t sign up, Spam, Offensive messages or No reason.
+To support this feature, Meta has introduced a new identifier called the **Business-Scoped User ID (BSUID)**.
 
-If your quality rating is medium or low, you can hover over the rating in the WhatsApp Manager to view the insights into the block reasons if they're available. This can help your businesses understand the details around user block reasons, avoid continuing to send low quality templates and mitigate the risk of more customers blocking your phone number.
+When a customer's phone number is unavailable, businesses can use the BSUID to identify the customer and manage supported WhatsApp conversations.
 
-You can subscribe and be notified for the quality-related updates. You'll receive an email and a notification in Meta Business Manager when:
+{% hint style="info" %}
+**In Simple Terms:** Your business can have a username, and your customers can also have usernames. Business Usernames help customers find your business, while Customer Usernames allow customers to communicate without necessarily sharing their phone numbers.
+{% endhint %}
 
-* A phone number’s status is changed to Flagged or when this Flagged Status is removed.
-* There is a change to a phone number’s messaging limits.
+***
 
-You can find the quality rating over the past 30 days by clicking the icon in the Settings column. You can view the lowest quality score for the business on a given day, which will enable a better understanding of potential drivers over the past 30 days that may have caused the quality rating to decline or increase.
+## 2. Business Username vs. Customer Username
 
+There are two types of WhatsApp usernames.
 
+#### i. Business Username
 
-## Status changes
+A **Business Username** belongs to your business and helps customers find and identify your WhatsApp Business account.
 
-When the quality rating reaches low quality, your phone number quality rating changes to Low. If the phone number quality is Low and on track to be downgraded to a lower [message tier](../../broadcasting-through-whatsapp-cloud-api/broadcast-messaging-limit.md), the phone number status changes to Flagged. When a phone number is Flagged, if the quality doesn't improve over 7 days, the status returns to Connected. However, the messaging limit will decrease to the next level. For example, the phone number that used to have the 100,000 messaging limit now has the 10,000 messaging limit.
+**Example:**
 
-* Connected: You can send outgoing messages within your set messaging limit.
-* Flagged: This status occurs when the phone number’s quality rating changes to Low and is on track to be downgraded to a lower message tier. Businesses can't upgrade messaging limit tiers while the status is Flagged. If the quality rating:
-  * Improves to a high or medium quality by the 7th day from when your status was changed to Flagged, the status will return to Connected and your messaging limit tier will remain unaffected.
-  * Does not improve to a high or medium quality by the 7th day from when your status was changed to Flagged, your status will return to Connected. However, your messaging limit will decrease to the next level.
+`@Seampify`
 
-If your quality rating reaches low quality, or your phone number status changes to Flagged or Restricted status, you'll receive an email and notification in Business Manager as a warning.
+A Business Username:
 
-* Restricted: This status occurs when you reach your messaging limit, regardless of the quality rating. While the status is Restricted, you can’t send any outgoing messages until 24 hours have elapsed. You can still respond to any messages that customers initiate.
+* Must be unique.
+* Helps customers find and contact your business.
+* Is associated with a specific WhatsApp Business phone number.
+* Does not replace your WhatsApp Business phone number.
+* Is optional and subject to Meta's rollout and eligibility requirements.
 
+Each WhatsApp Business phone number can have one unique username. Businesses with multiple phone numbers must use a different username for each number.
 
+{% hint style="info" %}
+**Note:** A Business Username is different from your WhatsApp Business display name. Display names do not need to be unique, but usernames must be unique.
+{% endhint %}
 
-## Improve Your Quality Rating <a href="#improve_your_quality_rating" id="improve_your_quality_rating"></a>
+#### ii. Customer Username
 
-To improve your quality rating, consider the following steps:
+A **Customer Username** belongs to an individual WhatsApp user.
 
-* **Check Templates**: Review whether any templates added within the last seven days may be causing issues. Identifying and addressing problematic templates can help improve the quality and effectiveness of your messages.
-* **Policy Compliance**: Ensure that your notifications adhere to [WhatsApp's policies](https://www.whatsapp.com/legal/business-policy/). Verify that your messages align with the guidelines and regulations set by WhatsApp to avoid any potential violations.
-* **User Opt-In**: Evaluate if you have obtained proper user opt-ins for the topics covered in your templates. If customers have not explicitly consented to receive certain types of messages, they may respond negatively, affecting your quality rating. Ensure that you only send messages they have explicitly agreed to receive.
-* **Best Practices**: Review your notifications against WhatsApp's [Best Practice Guide](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines). Consider implementing recommended strategies and techniques to optimize your messaging approach and deliver a positive user experience.
+Customers can use their usernames to communicate with businesses without necessarily sharing their phone numbers.
 
-By implementing these measures, you can actively work towards improving your quality rating, ensuring better customer satisfaction, and maintaining a healthy messaging reputation on WhatsApp.
+When a customer enables username privacy, Meta may provide your business with a **BSUID instead of the customer's phone number**.
+
+This allows businesses to continue communicating with customers while respecting their privacy preferences.
+
+***
+
+## 3. What Is a BSUID?
+
+**BSUID stands for Business-Scoped User ID.**
+
+It is a unique identifier generated by Meta to identify a WhatsApp user within a specific business portfolio.
+
+**Example:**
+
+`US.13491208655302741918`
+
+Meta automatically generates and manages BSUIDs. Businesses do not need to create them manually.
+
+#### Why Does BSUID Matter?
+
+Previously, a customer's phone number was commonly used as the primary identifier for WhatsApp conversations.
+
+With WhatsApp Usernames, a customer may now be identified through:
+
+* **Phone Number:** When the customer's phone number is available.
+* **BSUID:** When Meta provides a business-scoped identifier for the customer.
+* **Both:** When Meta provides the BSUID alongside an available phone number.
+
+This means customers can continue communicating with your business even when their phone numbers are unavailable.
+
+{% hint style="warning" %}
+**Important:** A BSUID is an identifier for messaging and contact management. It does not automatically reveal the customer's phone number.
+{% endhint %}
+
+***
+
+## 4. What Changes for Your Seampify Account?
+
+For most businesses, no manual action is required to receive BSUID information from Meta.
+
+When a customer interacts with your Seampify WhatsApp account without sharing their phone number, Meta may provide a BSUID instead.
+
+**For example:**
+
+**Previously:**
+
+Customer → WhatsApp → Phone Number → Seampify Contact
+
+**With WhatsApp Username Privacy:**
+
+Customer → WhatsApp → BSUID → Seampify Contact
+
+The customer can continue communicating with your business even when their phone number is unavailable.
+
+{% hint style="success" %}
+**Tip:** The availability of BSUID-based contact management, automation, and messaging features depends on the capabilities supported by your Seampify account.
+{% endhint %}
+
+***
+
+## 5. Can a Contact Exist Without a Phone Number?
+
+**Yes.**
+
+With WhatsApp Usernames, a customer may exist in Seampify with a BSUID but without a phone number, where BSUID-based contact management is supported.
+
+The contact can still be used for supported WhatsApp conversations, chatbots, and automation.
+
+Businesses should therefore avoid assuming that every WhatsApp contact will always have a phone number.
+
+***
+
+## 6. What Happens to Existing Contacts?
+
+If your business already has a customer's phone number, the number does not automatically disappear from your existing contact records when the customer starts using a WhatsApp Username.
+
+Existing records can continue to contain previously available phone numbers.
+
+Customers who do not enable username privacy can also continue to communicate through their phone numbers as usual.
+
+{% hint style="info" %}
+**Note:** Whether a phone number appears in future WhatsApp messages depends on Meta's privacy settings and whether the number is already known to the business.
+{% endhint %}
+
+***
+
+## 7. What Can I Do With a BSUID Contact?
+
+A BSUID can be used to identify and communicate with a customer when their phone number is unavailable.
+
+Depending on Meta's messaging rules and the features supported by Seampify, your business can continue to:
+
+* Communicate with the customer through supported WhatsApp messages.
+* Maintain conversation history.
+* Trigger supported chatbot flows.
+* Trigger supported automations.
+* Manage the customer in your messaging platform.
+
+However, some use cases still require a phone number.
+
+#### Important: OTP and Authentication
+
+WhatsApp authentication and OTP use cases still require a **phone number**.
+
+If your business uses WhatsApp for:
+
+* One-Time Passwords (OTP)
+* Account verification
+* Authentication
+* Other phone-number-dependent processes
+
+You should have a process for requesting the customer's phone number when it is unavailable.
+
+{% hint style="danger" %}
+**Important:** A BSUID should not be treated as a complete replacement for a phone number in every use case.
+{% endhint %}
+
+#### How Can I Collect the Customer's Phone Number?
+
+If your business needs a customer's phone number, you can request it during the WhatsApp conversation.
+
+**Example:**
+
+"Please share your phone number so we can verify your account and send your booking confirmation."
+
+When requesting a phone number, clearly explain why the information is needed.
+
+Depending on the use case, you can use WhatsApp's supported contact-sharing or interactive messaging features to collect the customer's phone number.
+
+{% hint style="info" %}
+**Note:** Businesses should respect customer privacy preferences and collect personal information only when necessary and permitted by applicable laws.
+{% endhint %}
+
+***
+
+## 8. What Happens If I Have Multiple WhatsApp Numbers?
+
+Businesses may have multiple WhatsApp Business Accounts (WABAs) and phone numbers.
+
+Because BSUIDs are **business-scoped**, their behaviour depends on how your WhatsApp Business Accounts are organised within Meta Business Portfolios.
+
+#### Multiple WABAs Under the Same Business Portfolio
+
+If multiple WhatsApp Business Accounts belong to the same business portfolio, Meta can use the same BSUID to identify a customer across those accounts.
+
+**Example:**
+
+| WhatsApp Account | Customer | BSUID         |
+| ---------------- | -------- | ------------- |
+| Sales            | John     | `US.12345...` |
+| Customer Service | John     | `US.12345...` |
+| Marketing        | John     | `US.12345...` |
+
+This helps businesses with multiple WhatsApp numbers maintain a consistent customer identity within the same business portfolio.
+
+#### WABAs Under Different Business Portfolios
+
+If your WhatsApp Business Accounts belong to different business portfolios, the same customer may have a different BSUID in each portfolio.
+
+For eligible businesses operating across multiple portfolios, Meta also supports **Parent BSUIDs**.
+
+A Parent BSUID allows eligible linked business portfolios to identify and communicate with the same customer across those portfolios.
+
+{% hint style="info" %}
+**Note:** Parent BSUIDs are mainly relevant to businesses operating across multiple linked business portfolios. Most businesses with WABAs under a single portfolio do not need to take additional action.
+{% endhint %}
+
+***
+
+## 9. Frequently Asked Questions
+
+<details>
+
+<summary>Does a Business Username replace my WhatsApp phone number?</summary>
+
+No.
+
+A Business Username provides an additional way for customers to find and contact your business.
+
+Your WhatsApp Business phone number remains associated with your WhatsApp Business Platform account.
+
+</details>
+
+<details>
+
+<summary>Does every customer have a BSUID?</summary>
+
+Meta generates a BSUID for WhatsApp users within the relevant business portfolio context.
+
+However, businesses may receive different combinations of customer identifiers depending on Meta's privacy settings and messaging capabilities.
+
+Customers who do not use username privacy can continue to be identified through their phone numbers.
+
+</details>
+
+<details>
+
+<summary>Can a customer exist in Seampify without a phone number?</summary>
+
+Yes.
+
+Where supported, a customer can be created or identified using a BSUID when their phone number is unavailable.
+
+This allows the business to maintain supported WhatsApp conversations without requiring the customer's phone number.
+
+</details>
+
+<details>
+
+<summary>Can I send WhatsApp messages to a BSUID?</summary>
+
+Yes, where BSUID-based messaging is supported and available for the relevant account.
+
+Businesses must still comply with Meta's messaging rules, including customer consent requirements and applicable messaging limits.
+
+</details>
+
+<details>
+
+<summary>Can I send OTP using BSUID?</summary>
+
+No.
+
+WhatsApp authentication and OTP use cases require a phone number.
+
+A BSUID cannot replace the phone number required for these processes.
+
+</details>
+
+<details>
+
+<summary>Can I search for a customer using their WhatsApp Username?</summary>
+
+A WhatsApp Username should not be treated as a customer-search identifier within your business messaging platform.
+
+Businesses generally receive the relevant customer identifier when the customer interacts with them.
+
+</details>
+
+***
+
+## 10. How to Apply for a WhatsApp Username
+
+Businesses can reserve a unique WhatsApp Username through WhatsApp Manager or Meta Business Suite.
+
+Reserving a username helps secure your preferred business identity before or during Meta's gradual rollout.

@@ -1,22 +1,20 @@
----
-icon: message-dollar
----
-
 # WhatsApp Conversation Based Pricing
 
-## Charging Model
+## 1. Charging Model
 
 The WhatsApp Business Platform uses a **per-message pricing model**, where businesses are charged for each successfully delivered message based on its category and the recipient's country.
 
 From 1 October 2026, businesses receive **1,000 free service messages per phone number each month**. Additional service messages are chargeable.
 
-<figure><img src="../../../.gitbook/assets/image (907).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-## Categories of WhatsApp Conversations
+***
+
+## 2. Categories of WhatsApp Conversations
 
 WhatsApp messages are classified into the following categories:
 
-1. **User-Initiated Messages:** When customers contact a business for support or enquiries. Businesses can reply within the [24-hour customer service window](../understanding-24-hour-customer-service-window.md#id-24-hour-customer-service-window).
+1. **User-Initiated Messages:** When customers contact a business for support or enquiries. Businesses can reply within the [24-hour customer service window](../conversation-through-whatsapp-cloud-api-1/understanding-24-hour-customer-service-window.md#id-24-hour-customer-service-window).
 2. **Business-Initiated Messages:** When businesses reach out to customers using approved message templates, which are divided into three categories:
    * **Marketing Messages:** Promotional messages, product announcements, special offers, and cart abandonment reminders.
    * **Utility Messages:** Transactional updates such as order confirmations, delivery notifications, and payment reminders.
@@ -34,10 +32,12 @@ WhatsApp messages are classified into the following categories:
     * After the free-entry-point window expires, standard message charges apply.
 
 {% hint style="warning" %}
-**Warning:** Messaging during an eligible free-entry-point window may be free, but Click-to-WhatsApp advertising costs still apply.
+**Important:** Messaging during an eligible free-entry-point window may be free, but Click-to-WhatsApp advertising costs still apply.
 {% endhint %}
 
-## How Are WhatsApp Conversations Charged? <a href="#how_are_conversations_being_charged" id="how_are_conversations_being_charged"></a>
+***
+
+## 3. How Are WhatsApp Conversations Charged? <a href="#how_are_conversations_being_charged" id="how_are_conversations_being_charged"></a>
 
 Meta charges businesses based on the message category, recipient's country, and number of delivered messages.
 
@@ -51,9 +51,9 @@ Meta charges businesses based on the message category, recipient's country, and 
 **Important:** Pricing varies by recipient country and message category. For Singapore (SGD) and Malaysia (MYR) rates, refer to [Meta's official rate cards](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing).
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (909).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
+{% hint style="info" %}
 **Note:** Seampify does not impose additional per-conversation charges. Meta's messaging charges are separate from any applicable Seampify subscription or platform fees.
 {% endhint %}
 

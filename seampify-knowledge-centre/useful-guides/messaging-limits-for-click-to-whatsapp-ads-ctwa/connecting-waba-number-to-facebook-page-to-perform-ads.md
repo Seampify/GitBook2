@@ -1,49 +1,75 @@
 # Connecting WABA Number to Facebook Page to Perform Ads
 
-Before performing a [Clicks-To-WhatsApp-Ads (CTWA)](how-to-setup-ctwa-ads-from-ads-manager.md), you will need to connect your WABA number first. Here is a guide to help you connect your WABA number with your facebook page and ads manager. Once done, you can use it for CTWA.
+To run [Click-to-WhatsApp Ads (CTWA)](https://seampify.gitbook.io/seampify/useful-guides/messaging-limits-for-click-to-whatsapp-ads-ctwa/how-to-setup-ctwa-ads-from-ads-manager) ads on Facebook and Instagram, you need to connect your WhatsApp Business API phone number to your Facebook Page.
+
+Follow the steps below to connect your WhatsApp Business phone number.
+
+***
+
+## 1. How to Connect Your WABA Number to a Facebook Page
 
 {% stepper %}
 {% step %}
-### Login as the admin of your facebook page. Go into Settings.
+Log in as the admin of your Facebook Page and go to **Settings**.
 
-<figure><img src="../../.gitbook/assets/Connect to ads.PNG" alt="" width="186"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (324).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Scroll down to "Permissions" and select "Linked accounts".
+Scroll down to **Permissions** and select **Linked accounts**.
 
-<figure><img src="../../.gitbook/assets/Connect to ads1.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (327).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select "WhatsApp".
+Select **WhatsApp**.
 
-<figure><img src="../../.gitbook/assets/Connect to ads2.PNG" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (333).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Scroll down and select "Connect another number".
+Scroll down and select **Connect another number**.
 
-<figure><img src="../../.gitbook/assets/Connect to ads3.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (335).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter your WhatsApp number and press "Send code".
+Enter your WhatsApp number and click **Send code**.
 
-<figure><img src="../../.gitbook/assets/Connect to ads4.PNG" alt=""><figcaption></figcaption></figure>
+Select the appropriate country code and enter your WhatsApp Business phone number.
+
+You can also choose to set this number as your Page's primary WhatsApp number.
+
+<figure><img src="../../.gitbook/assets/image (339).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+Once you receive the verification code via WhatsApp, enter the code and click **Confirm**.
+
+After successful verification, your WhatsApp number will be connected to your Facebook Page, and you can use it to run Click-to-WhatsApp ads.
+
+<figure><img src="../../.gitbook/assets/image (340).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+**Note:** If you are unable to receive the verification code via WhatsApp, a connection request may be sent to the Meta Business Portfolio that owns your WhatsApp Business Account.
+{% endhint %}
+
+To check for the request, go to [Meta Business Settings](https://business.facebook.com/settings/) and navigate to **Requests → Other requests → Received**.
+{% endstep %}
+
+{% step %}
+Locate the connection request and click **Approve**.
+
+<figure><img src="../../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+Once the request has been approved, your WhatsApp number will be connected to your Facebook Page.
+
+<figure><img src="../../.gitbook/assets/image (342).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-Once you received and entered the OTP number, your number is now connected with your Facebook page and you can now perform ads with this number.
-
-<figure><img src="../../.gitbook/assets/unnamed (2).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="warning" %}
-If you are not able to receive the OTP via WhatsApp, you may search it from business.facebook.com, under Other requests.
+{% hint style="info" %}
+**Note:** If your Facebook Page and WhatsApp Business Account (WABA) belong to the same Meta Business Portfolio, your number may be connected automatically without requiring a verification code. Refresh the page to confirm the connection.
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/image (853).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
