@@ -42,7 +42,7 @@ Select the rejected message template and click **Request Review**.
 {% step %}
 Select the appropriate appeal reason and click **Submit**.
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

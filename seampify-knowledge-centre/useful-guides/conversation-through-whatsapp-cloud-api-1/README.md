@@ -43,7 +43,7 @@ Businesses must also obtain the appropriate customer opt-in before initiating me
 | Message template | Optional within the window        | Required outside the window    |
 | Pricing          | Based on applicable message rules |                                |
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **Important:** Meta charges for WhatsApp Business Platform usage based on delivered messages rather than simply counting conversations. The applicable charges depend on message category, recipient country, and current Meta pricing rules.

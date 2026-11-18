@@ -36,7 +36,7 @@ If you have selected **Exact keyword match**, the customer's message must match 
 
 For example, if you have set your keyword as "Seampify", the automation will be triggered when the customer sends "Seampify".
 
-<figure><img src="../../.gitbook/assets/image (352).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (350).png" alt=""><figcaption></figcaption></figure>
 
 Once the keyword matches, the automation will proceed to the next node and send the configured response.
 
@@ -83,7 +83,7 @@ Under Conditions, select the appropriate field:
 * **Source Type:** Identify conversations based on their source type.
 * **Source Url:** Identify conversations associated with a specific source URL.
 
-<figure><img src="../../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (350).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

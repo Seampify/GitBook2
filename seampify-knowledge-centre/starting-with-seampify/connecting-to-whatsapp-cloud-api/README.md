@@ -7,8 +7,6 @@ description: >-
 
 # Connecting to WhatsApp Cloud API
 
-{% embed url="https://youtu.be/ZVrYOYrvyL0" %}
-
 ## Things to prepare
 
 Here are a few things you need to prepare before getting a WhatsApp Business Platform (API) account:
@@ -20,21 +18,25 @@ Here are a few things you need to prepare before getting a WhatsApp Business Pla
   * [Make sure you are the admin of the business portfolio](how-to-check-if-you-are-an-admin-of-your-business-portfolio.md)
   * Ensure that your business adheres to the [WhatsApp Business Messaging Policy](https://www.whatsapp.com/legal/business-policy/?fbclid=IwAR0r5k_N1rCYnfK8yyCWUP3D88tVCR814x9UX-w5EIcu8ai8b8is8ilrAQY).
 
-
-
 ### _**Step 1: Navigate to Channels**_
 
 * Go to **Settings > Channels**.
-* Locate the **WhatsApp Cloud API** option and click the **Configure** button.
+* Click the **Add Channel** button.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-11 162415.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Onboarding (1).png" alt=""><figcaption></figcaption></figure>
 
 ### _**Step 2: Whatsapp Cloud API Pop Up**_
 
-* Select **"I want to create a new WhatsApp Business API."**
-* Click the **"Login with Facebook"** button to proceed.
+* Select **"WhatsApp Business"**
 
-<figure><img src="../../.gitbook/assets/image (398).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Onboarding (2).png" alt=""><figcaption></figcaption></figure>
+
+* Choose **"Cloud API only"**
+* Enter your **Channel Name**. This is for internal identification purposes only and will not be visible to your customers.
+
+<figure><img src="../../.gitbook/assets/Onboarding (5).png" alt=""><figcaption></figcaption></figure>
+
+* Click the **"Authorize & Connect"** button to proceed.
 
 ### _**Step 3: Login to Facebook**_
 
@@ -47,57 +49,28 @@ Here are a few things you need to prepare before getting a WhatsApp Business Pla
 * Only admins have the permissions required to create WhatsApp API Business Accounts.
 {% endhint %}
 
-* Grant necessary permissions to **Seampify**.
 * Follow the on-screen instructions to complete the connection process.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-11 165612.png" alt="" width="563"><figcaption></figcaption></figure>
+### _Step 4: Select WhatsApp Number_
 
-### _**Step 4: Fill in Business Information**_
+* Select "**Enter a new phone number**".
+* Enter the phone number you want to connect.
+* Make sure the country code is set to **+60 (Malaysia).**
+* Click **Next**.
 
-* Choose your **business portfolio**. If you do not have a business portfolio, you may create a new one.
-* Complete the required fields, such as business name and a valid website.
-* <div data-gb-custom-block data-tag="hint" data-style="danger" class="hint hint-danger"><p><strong>What is a valid website?</strong><br><strong>-</strong> Viewable and belongs to your business<br><strong>-</strong> Contain informations that can determine your business industry<br>- Has a matching email domain and web address<br>- Features your company's name or logo.<br><br>Having a valid website in your MBM serves as a best practice to prevent any potential issues if and when you want to apply for <a href="https://www.facebook.com/business/help/2058515294227817?id=180505742745347">Meta Business Verification</a>.</p></div>
-* Click **Next** to proceed.
-
-<figure><img src="https://lh7-rt.googleusercontent.com/slidesz/AGV_vUekDqhKYDpcMJVxvLp1c2GLGa42ft_ajuNp1gwpt5ClMSCIUguSLfrhhrLlWW9uEqO4_S15ciA4bKvnjidxJC6r4RoI6VJvOe23kCfva1_foYH_LyrhXKUurvSfnUTtoEzxYA_88w4xk7cyTCoNgGIW0S8WwQ8=s2048?key=xASp0vI8HGng550mKgBz0g" alt="" width="375"><figcaption></figcaption></figure>
-
-{% hint style="warning" %}
-Note: Enter a valid business website as Facebook uses the website information to check compliance with [WhatsApp's Commerce Policy](https://business.whatsapp.com/policy)
-{% endhint %}
-
-### _Step 5: Select WhatsApp Number_
-
-* Select " **Start with a new WhatsApp phone number**" for the prompt.
-* Click **Next** to proceed.
-
-<figure><img src="../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Onboarding (7).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-#### <mark style="color:red;">Note!</mark> If you wish to connect using your WhatsApp Business App number (Coexistence), choose the "Connect your existing WhatsApp Business app". [You may refer to this guide here for the setup.](https://seampify.gitbook.io/seampify/starting-with-seampify/connecting-to-whatsapp-cloud-api/onboarding-whatsapp-business-app-users-coexistence#step-5-select-whatsapp-number)
+#### <mark style="color:red;">Note!</mark> If you wish to connect using your WhatsApp Business App number (Coexistence), choose the "Use my WhatsApp Business app" on step 2. [You may refer to this guide here for the setup.](https://seampify.gitbook.io/seampify/starting-with-seampify/connecting-to-whatsapp-cloud-api/onboarding-whatsapp-business-app-users-coexistence#step-5-select-whatsapp-number)
 {% endhint %}
 
-### _**Step 6: Create a WhatsApp Business Account (WABA)**_
+### _**Step 5: Verify WhatsApp Number**_.
 
-* Select **"Create a new WhatsApp Business Account"** for both prompts.
-* Click **Next** to proceed.
-
-<figure><img src="../../.gitbook/assets/image (859).png" alt="" width="484"><figcaption></figcaption></figure>
-
-### _**Step 7: Fill in WhatsApp Business Account (WABA) Details**_
-
-Enter the following details:
-
-* **Whatsapp Business Account Name:** Used for internal reference in your business portfolio.
-* **Whatsapp Business Display Name:** The name that will appear on your WhatsApp profile to customers.
-
-Click **Next** once the details are filled in.
-
-<figure><img src="https://lh7-rt.googleusercontent.com/slidesz/AGV_vUciotoZZFRIXKnOz3S-3fbxNrS9rIT6aI8_ea2xsQ0Ue0_DhHYFQvU_A3nhm-Wwaymqi7ffSyAKiGq5j-VGsea_OcXcIIm_GIkqcZb_NevZ7-S0-1LrLg3nqRHT2Zk89Yb_iVWm2yQFdvQMRvuZQ8FJzm6tDuh1=s2048?key=xASp0vI8HGng550mKgBz0g" alt="" width="375"><figcaption></figcaption></figure>
-
-### _**Step 8: Verify WhatsApp Number**_
-
-* Select the option "Add a new number".&#x20;
 * Enter the **phone number** you wish to connect to the WhatsApp Business API. Then, pick the choice to retrieve the OTP for verification.
+* You can either choose **Text Message** or **Phone Call** to receive the OTP.
+* Make sure you are able to receive it.
+* If you're using landline, choose Phone Call option.
+* Then, click Next.
 
 {% hint style="warning" %}
 - You will need to **delete your WhatsApp account** in the WhatsApp Messenger / WhatsApp Business app (not the app itself) before proceeding. [Refer here for detailed instructions on how to delete your account.](../../useful-guides/whatsapp-api-business-account/how-to-delete-whatsapp-account-on-mobile-app.md)
@@ -107,26 +80,71 @@ Click **Next** once the details are filled in.
 Deleting your account will erase all conversation history. Contact Seampify's Customer Support if you wish to migrate the conversations to Seampify platform.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/1aaad3dd-25ac-4697-b75e-25a28987e97f.png" alt="" width="422"><figcaption></figcaption></figure>
+* Fill in the OTP received and click **Next**.
 
-* Click **Next** to generate an OTP for verification.
+<figure><img src="../../.gitbook/assets/Onboarding (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (246).png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+### _**Step 6: Fill in Business Information**_
+
+* Choose your **business portfolio**. If you do not have a business portfolio, you may create a new one.
+* Choose "**Create a WhatsApp account**" from the selection.
+
+<figure><img src="../../.gitbook/assets/Onboarding (9).png" alt=""><figcaption></figcaption></figure>
+
+* Then, click **Next**.
+
+
+
+### _**Step 7: Fill in Business Information**_
+
+* Complete the required fields, such as business name and a valid website.
+* Name: Used for internal reference in your business portfolio.
+* <div data-gb-custom-block data-tag="hint" data-style="danger" class="hint hint-danger"><p><strong>What is a valid website?</strong><br><strong>-</strong> Viewable and belongs to your business<br><strong>-</strong> Contain informations that can determine your business industry<br>- Has a matching email domain and web address<br>- Features your company's name or logo.<br><br>Having a valid website in your MBM serves as a best practice to prevent any potential issues if and when you want to apply for <a href="https://www.facebook.com/business/help/2058515294227817?id=180505742745347">Meta Business Verification</a>.</p></div>
+* Change your time zone to **Kuala Lumpur**.
+
+<figure><img src="../../.gitbook/assets/Onboarding (10).png" alt=""><figcaption></figcaption></figure>
+
+* After all the details are filled, click **Next**.
+
+{% hint style="warning" %}
+Note: Enter a valid business website as Facebook uses the website information to check compliance with [WhatsApp's Commerce Policy](https://business.whatsapp.com/policy)
+{% endhint %}
+
+### _**Step 8: Choose your WhatsApp Display Name**_
+
+Enter the following details:
+
+* **Whatsapp Business Display Name:** The name that will appear on your WhatsApp profile to customers.
+
+Click **Next** once the details are filled in.
+
+<figure><img src="../../.gitbook/assets/Onboarding (11).png" alt=""><figcaption></figcaption></figure>
 
 ### _**Step 9: Complete the Setup**_
 
-* Once the verification is complete, you can add a payment method immediately or do it later.
+* Review what you'll share with SEAMPIFY.
+* Click **Confirm**.
+
+<figure><img src="../../.gitbook/assets/Onboarding (12).png" alt=""><figcaption></figcaption></figure>
+
+* Wait a few second while it is connecting your account.
+
+<figure><img src="../../.gitbook/assets/Onboarding (13).png" alt=""><figcaption></figcaption></figure>
+
+* You might be prompt for a **confirmation code** that have been sent to your facebook's email.
+* Enter the Confirmation Code and click **Next**.
+
+<figure><img src="../../.gitbook/assets/Onboarding (14).png" alt=""><figcaption></figcaption></figure>
+
+* Once done, your account should be connected to Seampify.
+* You can add a payment method immediately or do it later.
 * If you wish to skip, select **"Finish"**, and you will be redirected to Seampify.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdqh3Ed3O9BxYyOv-8jRUPXHIRR5h3h-CbCGAHxQYFX9_elh8x63YE5KwVY0-DV8c5odY6420t4FdHjQ5sV_zh0-u7Wyoe5jj1xbE12ZZq7KBZEihzTi2wZkwG617Y54Cnm4rmN_1OLeFf-KiazkG2EkmH1gSA=s2048?key=xASp0vI8HGng550mKgBz0g" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Onboarding (15).png" alt=""><figcaption></figcaption></figure>
 
-* On the Seampify dashboard:
-  * Select **Add Channel**.
-  * Click **Finish** once the channel has been successfully added to finalize the setup.
+* A new pop up from Seampify page will notify you that ypur channel is connected.
+* Congrats! Your channel is now ready to use!
 
-<figure><img src="../../.gitbook/assets/image (399).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="danger" %}
-Ensure you click the **Add Channel** button before finishing. Failing to do so may require you to redo the setup process
-{% endhint %}
-
+<figure><img src="../../.gitbook/assets/Onboarding (16).png" alt=""><figcaption></figcaption></figure>

@@ -48,7 +48,7 @@ The WhatsApp Business Calling API offers several settings that control when and 
 
 This is the main setting for enabling or disabling voice calls on your WhatsApp business phone number.
 
-<figure><img src="../../.gitbook/assets/image (379).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure>
 
 #### ii. Display call buttons
 
@@ -64,7 +64,7 @@ The available options are as follows:
 
 The call button is displayed in the WhatsApp chat, allowing customers to initiate calls directly to your business.
 
-<figure><img src="../../.gitbook/assets/image (382).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (381).png" alt=""><figcaption></figcaption></figure>
 
 **DISABLE ALL**
 

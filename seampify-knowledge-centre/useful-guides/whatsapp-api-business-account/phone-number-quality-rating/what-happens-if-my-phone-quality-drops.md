@@ -24,7 +24,7 @@ WhatsApp Business Platform users can reserve a username through **Meta Business 
 2. Click **Settings** and navigate to **WhatsApp Accounts**.
 3. Select your WhatsApp Business Account.
 
-<figure><img src="../../../.gitbook/assets/image (276).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (274).png" alt=""><figcaption></figcaption></figure>
 
 4. Select the business phone number you want to create a username for.
 

@@ -91,7 +91,7 @@ Here, you can view your business portfolio's current messaging limit and the req
 
 The limit is shared across all WhatsApp business phone numbers within the same business portfolio.
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3: Review Your Phone Number Quality
 

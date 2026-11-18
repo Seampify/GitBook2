@@ -94,7 +94,7 @@ These preferences determine how long your business has permission to initiate vo
 
 **Not at this time:** This declines the current request. Your business will not be able to initiate a call unless the customer subsequently grants permission. You must comply with Meta's call permission request limits before sending another request.
 
-<figure><img src="../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -110,7 +110,7 @@ A call permission request expires when any of the following occurs:
 * 7 days after the permission request was accepted or declined by the user.
 * 7 days after the permission request was delivered if the user does not respond to the request.
 
-<figure><img src="../../.gitbook/assets/image (184).png" alt=""><figcaption><p>Permission request expires after 7 days — User interacts with request</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption><p>Permission request expires after 7 days — User interacts with request</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (185).png" alt=""><figcaption><p>Permission request expires after 7 days — User does not interact</p></figcaption></figure>
 
@@ -138,7 +138,7 @@ These limits apply to permission requests sent either as free-form or template m
 
 ***
 
-## 6. Frequently Asked Questions&#x20;
+## 6. Frequently Asked Questions
 
 <details>
 
