@@ -7,15 +7,15 @@ description: >-
 
 # Setup Business Profile
 
-## 1. Go to Manage Profile&#x20;
+## 1. Go to Manage Profile
 
-* Navigate to **Settings > Manage Profile** under Cloud API&#x20;
+Navigate to **Settings > Channels > More >Profile** under Cloud API
 
-<figure><img src="../.gitbook/assets/image (575).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Biz Profile (1).png" alt=""><figcaption></figcaption></figure>
 
-## 2. Update Details&#x20;
+## 2. Update Details
 
-<figure><img src="../.gitbook/assets/image (570).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Biz Profile (2).png" alt=""><figcaption></figcaption></figure>
 
 Here, you can change your Profile Picture, Address, Description, Email, Website and Business Vertical from the available options:
 
@@ -35,6 +35,10 @@ Here, you can change your Profile Picture, Address, Description, Email, Website 
 * Travel and Transportation
 * Restaurant
 * Other
+
+There will be a Share QR Code section below.
+
+* You can **copy the link** or **download the QR** to share with your customer.
 
 Once done, click **Save Changes**.
 

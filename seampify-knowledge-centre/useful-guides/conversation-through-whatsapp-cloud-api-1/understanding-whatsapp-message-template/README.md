@@ -81,12 +81,12 @@ To create an authentication template, businesses must:
 
 ## 3. Setting Up a Message Template <a href="#limitations" id="limitations"></a>
 
-Before sending a template message, you must [create a message template](../../../seampifys-modules/settings/more-settings/channels/manage-templates/#create-a-template-messages) in Seampify and submit it to Meta for approval.
+Before sending a template message, you must [create a message template](../../../seampifys-modules/settings-1/more-settings/channels/manage-templates/#create-a-template-messages) in Seampify and submit it to Meta for approval.
 
 For detailed instructions, refer to the guide below.
 
-{% content-ref url="../../../seampifys-modules/settings/more-settings/channels/manage-templates/" %}
-[manage-templates](../../../seampifys-modules/settings/more-settings/channels/manage-templates/)
+{% content-ref url="../../../seampifys-modules/settings-1/more-settings/channels/manage-templates/" %}
+[manage-templates](../../../seampifys-modules/settings-1/more-settings/channels/manage-templates/)
 {% endcontent-ref %}
 
 ***
@@ -107,7 +107,7 @@ There are three ways to send an approved message template through Seampify:
 
 1. Using [Chat](../../../seampifys-modules/chat/messaging-tools.md)
 2. Using [Drip Campaign](../../../seampifys-modules/drip-campaign/create-a-drip-campaign.md)
-3. And using [Campaign](../../../seampifys-modules/campaigns/bulk-broadcast-via-campaign.md)
+3. And using [Campaign](../../../seampifys-modules/marketing-and-ai/campaigns/bulk-broadcast-via-campaign.md)
 
 {% hint style="success" %}
 **Tip:** Once your message template has been approved, you can follow the guides above to start sending it through Seampify.
@@ -138,8 +138,8 @@ These limitations are subject to Meta's latest policies and account eligibility 
 
 We recommend adding a [Quick Reply button](https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates/components#quick-reply-buttons) to marketing templates categorised as `MARKETING` so customers can easily opt out of receiving promotional messages.
 
-This gives customers more control over the messages they receive without having to block your business.&#x20;
+This gives customers more control over the messages they receive without having to block your business.
 
-Providing a clear opt-out option can also help maintain message quality and support healthier customer engagement.&#x20;
+Providing a clear opt-out option can also help maintain message quality and support healthier customer engagement.
 
 For more information, refer to [Meta's guide on marketing opt-out buttons](https://www.facebook.com/business/help/448422200528701).

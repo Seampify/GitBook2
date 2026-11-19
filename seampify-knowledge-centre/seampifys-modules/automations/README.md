@@ -1,4 +1,5 @@
 ---
+hidden: true
 icon: message-bot
 ---
 
@@ -14,8 +15,6 @@ There are 3 main buttons in this modules:
 * [Automation Report](./#accessing-automation-report)
 * [Import Automation Template](./#importing-automation-template)
 
-
-
 ## Creating a Workflow <a href="#creating-a-workflow" id="creating-a-workflow"></a>
 
 To create an automation workflow from scratch, click the **Add New Automation** button.
@@ -27,8 +26,6 @@ Learn more about Add New Automation:
 {% content-ref url="create-a-new-automation/" %}
 [create-a-new-automation](create-a-new-automation/)
 {% endcontent-ref %}
-
-
 
 ## Accessing Automation Report
 
@@ -42,8 +39,6 @@ Learn more about Automation Report:
 [automation-report.md](automation-report.md)
 {% endcontent-ref %}
 
-
-
 ## Importing Automation Template
 
 Seampify offers a pre-built automation workflow library that’s ready to use. To access the library, simply click the **Import Automation Template** button.
@@ -55,4 +50,3 @@ Learn more about Automation Template:
 {% content-ref url="import-automation-template/" %}
 [import-automation-template](import-automation-template/)
 {% endcontent-ref %}
-

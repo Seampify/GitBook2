@@ -2,112 +2,131 @@
 icon: boxes-stacked
 ---
 
-# Dashboard
+# Home
 
 Once you have logged in to Seampify, you will be directed to the Dashboard page. Here, you may have a glance at conversations; access different modules, and much more.
 
-Using the Dashboard, you can quickly view the status of conversations: Total messages exchanged - received, and sent based on different channels and team members during a particular time.
+The **Seampify Dashboard** provides a centralized overview of your organization's performance, allowing you to monitor customer conversations, messaging activities, sales pipelines, automation performance, and eCommerce operations from a single page.
 
 {% hint style="info" %}
 Depending on your user's roles and permission set, you may see differently from others.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (751).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard.png" alt=""><figcaption></figcaption></figure>
 
-* **Channels** - Select the channel(s) you want to see the conversation overview for.
-* **Date Range** - Overview of Today, Yesterday, This Week, This Month, and Custom.
-* **Heatmap** - The heatmap offers insights into message activity and interactions on the platform, organized by hour. [Read on the heatmap for more details](heatmap.md).
-* **Engagement** - Number of any interaction or exchange of message(s) between a contact and a bot by date within the date range chosen. It signifies a two-way communication where at least one message is exchanged. Mouse over on the line chart to view the actual number.
-* **New Contacts** - Number of unique contact(s) created in your Seampify account, either through receiving an incoming message or sending an outgoing message by date within the date range chosen. Mouse over on the line chart to view the actual number.
+You can customize the information displayed on your Dashboard using the filters located at the top-right corner.
 
+| **Filter**   | **Description**                                               |
+| ------------ | ------------------------------------------------------------- |
+| Date Range   | View analytics based on the selected time period.             |
+| Channel      | Filter analytics based on the selected communication channel. |
+| All Channels | View combined analytics across all channels.                  |
 
+### Key Performance Indicators (KPIs)
+
+The top section of the Dashboard displays four key performance indicators that provide a quick overview of your business performance.
+
+#### Revenue Pipeline
+
+Displays the overall value of your sales pipeline.
+
+| **Metric**       | **Description**                                    |
+| ---------------- | -------------------------------------------------- |
+| Revenue Pipeline | Combined value of leads and deals in the pipeline. |
+| Leads Value      | Total monetary value associated with leads.        |
+| Deals Value      | Total monetary value associated with deals.        |
+| Deals Won        | Number of successfully won deals.                  |
+
+#### Messages Handled
+
+Displays the total messaging activities within your organization.
+
+| **Metric**        | **Description**                                 |
+| ----------------- | ----------------------------------------------- |
+| Total Messages    | Total number of incoming and outgoing messages. |
+| Incoming Messages | Messages received from customers.               |
+| Outgoing Messages | Messages sent to customers.                     |
+| Agent             | Messages handled by human agents.               |
+| Auto              | Messages handled through automation.            |
+| Campaigns         | Messages attributed to campaigns.               |
+
+#### Open Conversations
+
+Provides an overview of your customer conversation statuses.
+
+| **Metric** | **Description**                                  |
+| ---------- | ------------------------------------------------ |
+| Open       | Number of conversations that remain open.        |
+| Pending    | Number of conversations marked as pending.       |
+| Resolved   | Number of conversations that have been resolved. |
+
+#### Automation Health
+
+Displays the overall performance and success rate of your automation processes.
+
+| **Metric**   | **Description**                                       |
+| ------------ | ----------------------------------------------------- |
+| Success Rate | Percentage of successfully completed automation runs. |
+| Completed    | Number of successfully completed automation runs.     |
+| Failed       | Number of failed automation runs.                     |
+| Total Runs   | Total number of automation executions.                |
+
+### Performance Summary
+
+The Performance Summary section provides a breakdown of three key business areas.
+
+#### Lead & Deal Summary
+
+Track your sales and lead management performance, including:
+
+* Number of leads created.
+* Number of deals closed.
+* Lead-to-deal conversion rate.
+* Deal closing rate.
+* Deal value.
+
+#### Conversation Summary
+
+Monitor your organization's customer engagement and messaging activities, including:
+
+* Conversations created.
+* Conversations resolved.
+* Total messages.
+* Incoming messages.
+* Outgoing messages.
+
+#### Store Summary
+
+Monitor your eCommerce performance, including:
+
+* Total store revenue.
+* Number of store customers.
+* Total number of products.
+
+### Operational Metrics
+
+The Operational Metrics section provides a quick overview of your organization's key operational activities.
+
+| **Metric**      | **Description**                                                                           |
+| --------------- | ----------------------------------------------------------------------------------------- |
+| New Contacts    | Number of newly added contacts and total existing contacts.                               |
+| Automation Runs | Number of automation executions, including successful and failed runs.                    |
+| Leads           | Number of leads, closed leads, and associated monetary value.                             |
+| Deals           | Number of deals, deals generated from leads, closed deals, and associated monetary value. |
+| Abandoned Carts | Number of abandoned shopping carts.                                                       |
+
+### Detailed Analytics
+
+The Dashboard also provides expandable analytics sections that allow you to explore specific areas of your organization's performance in greater detail.
+
+<figure><img src="../../.gitbook/assets/Dashboard (3).png" alt=""><figcaption></figcaption></figure>
+
+Click on the arrow beside each section to expand and view its detailed analytics.
 
 ## Accessing Modules
 
 Head over to the left sidebar to access different modules of Seampify.
 
-<figure><img src="../../.gitbook/assets/image (753).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-11-18 110912.png" alt=""><figcaption></figcaption></figure>
 
 You can also close the sidebar by clicking the button in the top right corner of the sidebar.
-
-
-
-## More Options
-
-In addition, you've got more options to apply general changes to the platform, which are accessible all the time regardless of the module you're using. You can find them in the top bar.
-
-<figure><img src="../../.gitbook/assets/image (280).png" alt="" width="259"><figcaption></figcaption></figure>
-
-* To change the language. <img src="../../.gitbook/assets/image (281).png" alt="" data-size="line">
-* To view notifications.<img src="https://docs.rampwin.com/~gitbook/image?url=https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhElFPtMZjXYjDDMBT5q2%252Fuploads%252FEYGetfPDUWfPMxX6hIfs%252FNotification%2520Options.png%3Falt%3Dmedia%26token%3D152315b4-a23f-4000-9d55-67b4bf93e39d&#x26;width=58&#x26;dpr=4&#x26;quality=100&#x26;sign=2916885b&#x26;sv=2" alt="" data-size="line">
-* To access the Settings tab.<img src="https://docs.rampwin.com/~gitbook/image?url=https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhElFPtMZjXYjDDMBT5q2%252Fuploads%252Fp4dOFXIAOW5QosLo6q5s%252FSettings%2520Option%2520Top%2520bar.png%3Falt%3Dmedia%26token%3D4e6f560c-43cf-4dbd-a50e-d8c2b21356f2&#x26;width=45&#x26;dpr=4&#x26;quality=100&#x26;sign=3fdea6ca&#x26;sv=2" alt="" data-size="line">
-* To view profile or set your online status. <img src="../../.gitbook/assets/image (282).png" alt="" data-size="line">
-
-### Change Profile Image and Password
-
-Click on the Account icon on the top bar and select your user name & email.
-
-<figure><img src="../../.gitbook/assets/image (289).png" alt="" width="229"><figcaption></figcaption></figure>
-
-Once clicked,  It will direct you to [Personal Settings](../settings/personal-settings.md) window "[https://waba.seampify.com/settings/my-profile](https://waba.seampify.com/settings/my-profile)" or you may click on the URL directly.
-
-<figure><img src="../../.gitbook/assets/image (290).png" alt="" width="563"><figcaption></figcaption></figure>
-
-Here, you get the options to,
-
-* Change your Profile Name - This will be the name your customer (optional) and internal will see.&#x20;
-* Change your Profile Image - This will be seen by internal only.
-
-If you wish to change your password, click on Security & Password
-
-<figure><img src="../../.gitbook/assets/image (291).png" alt="" width="563"><figcaption></figcaption></figure>
-
-Here, you may enter your old password and new password. If you have forgotten your old password, kindly get the admin to help you change your password.
-
-### Changing Your Online Status
-
-{% stepper %}
-{% step %}
-Click on the Account icon on the top bar and select Set Yourself As **Offline.**
-
-<img src="../../.gitbook/assets/image (284).png" alt="" data-size="original">
-{% endstep %}
-
-{% step %}
-### Key in a reason (optional)
-
-<img src="../../.gitbook/assets/image (285).png" alt="" data-size="original">
-{% endstep %}
-
-{% step %}
-### Click on Go Offline button.
-
-Once offline, your Account icon will not be green in colour. <img src="../../.gitbook/assets/image (286).png" alt="" data-size="line">
-{% endstep %}
-{% endstepper %}
-
-If you wish to Set Yourself As **Online**, repeat the same step.
-
-### Switch Between User Accounts
-
-{% stepper %}
-{% step %}
-Click on the Account icon on the top bar and then selecting the account you wish to switch over to, from the drop down menu.
-
-<img src="../../.gitbook/assets/image (287).png" alt="" data-size="original">
-{% endstep %}
-
-{% step %}
-If you accessed this user from another user's account, you can return to your original account by clicking on "Reset Login."
-{% endstep %}
-{% endstepper %}
-
-{% hint style="info" %}
-This option will only be available if your email has access to multiple Seampify accounts.
-{% endhint %}
-
-### Log Out
-
-Click on the Account icon on the top bar and then select Logout.
-
-<figure><img src="../../.gitbook/assets/image (292).png" alt="" width="221"><figcaption></figcaption></figure>

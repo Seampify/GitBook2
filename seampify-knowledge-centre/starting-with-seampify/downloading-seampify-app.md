@@ -3,6 +3,7 @@ description: >-
   Stay connected and receive instant notifications directly on your mobile!
   Follow these simple steps to download the Seampify app on your smartphone. The
   app is available for both iOS and Android.
+hidden: true
 ---
 
 # Downloading Seampify App

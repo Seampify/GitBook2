@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Sending Messages
 
 There are 3 ways to initiate a conversation with your customers:

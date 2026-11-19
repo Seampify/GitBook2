@@ -1,22 +1,96 @@
-# Conversation Tray
+# Conversation List
 
-In the Conversation Tray, you can filter chats by their status and group. In addition, you can add contacts as well as download all the chats you had with your customers.
+The Conversation List displays customer conversations that match the selected inbox filters.
 
+### Search Conversations
 
+Use the search bar at the top of the Conversation List to search for customers using their name or phone number.
 
-## Filter Contacts
+### Conversation Preview
 
-Select conversations to open the chat area and communicate with the contact.
+Each conversation may display the following information:
 
-<figure><img src="../../.gitbook/assets/image (299).png" alt="" width="290"><figcaption></figcaption></figure>
+| **Information** | **Description**                                           |
+| --------------- | --------------------------------------------------------- |
+| Contact Name    | Name of the customer.                                     |
+| Profile Icon    | Customer's profile image or initials.                     |
+| Latest Message  | Preview of the most recent message.                       |
+| Timestamp       | Time elapsed since the latest conversation activity.      |
+| Channel         | Communication channel associated with the conversation.   |
+| Unread Count    | Number of unread messages.                                |
+| Assigned Agent  | Agent associated with the conversation, where applicable. |
 
-If you wish to add a new contact, you may click <img src="../../.gitbook/assets/image (296).png" alt="" data-size="line"> and fill in the required information. The new contact will automatically be assigned to the user who created it.
+Click on a conversation to open its conversation history.
 
+## Conversation Panel
 
+The Conversation Panel is the main workspace where agents communicate with customers and manage individual conversations.
 
-## Download Conversations
+### Conversation Header
 
-If you want to download the conversations, simply click on the contacts then click on the download button<img src="https://docs.rampwin.com/~gitbook/image?url=https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FhElFPtMZjXYjDDMBT5q2%252Fuploads%252FcH9phiHJBZIYZmUbLyUF%252FDownload%2520Conversations.png%3Falt%3Dmedia%26token%3D374ecb9f-75ff-4b10-ad9f-fcaf3c0d37f6&#x26;width=60&#x26;dpr=4&#x26;quality=100&#x26;sign=63aa2a32&#x26;sv=2" alt="" data-size="line">
+The conversation header displays customer information and available conversation management actions.
 
-<figure><img src="../../.gitbook/assets/download.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/convo header.png" alt=""><figcaption></figcaption></figure>
 
+| **Action**          | **Description**                                         |
+| ------------------- | ------------------------------------------------------- |
+| Conversation Status | Update the current conversation status.                 |
+| Assign              | Assign the conversation to an agent.                    |
+| Labels              | Add or manage labels associated with the conversation.  |
+| Call                | Access available calling functionality.                 |
+| Search              | Search within the conversation.                         |
+| AI / Automation     | Access AI and automation-related conversation controls. |
+| More Options        | Access additional conversation actions.                 |
+
+### Conversation History
+
+The conversation history displays communication activities between the customer and the business.
+
+This may include:
+
+* Incoming and outgoing messages.
+* Template messages.
+* Interactive message responses.
+* Call activities and call statuses.
+* Available call audio recordings.
+* Message timestamps.
+* Message delivery statuses.
+
+### WhatsApp Calling
+
+Where WhatsApp Calling is available, agents can view call activities within the conversation history.
+
+| **Call Status** | **Description**                                        |
+| --------------- | ------------------------------------------------------ |
+| Ringing         | An incoming call is ringing.                           |
+| Answered        | A call has been successfully answered.                 |
+| Missed          | An incoming call was not answered.                     |
+| Call Duration   | Duration of an answered call.                          |
+| Audio Playback  | Play available call recordings using the audio player. |
+
+### Reply and Note
+
+The message composer provides two communication modes.
+
+<figure><img src="../../.gitbook/assets/Reply and Note.png" alt=""><figcaption></figcaption></figure>
+
+| **Mode** | **Description**                                                           |
+| -------- | ------------------------------------------------------------------------- |
+| Reply    | Send a message directly to the customer.                                  |
+| Note     | Add an internal note for team members without sending it to the customer. |
+
+Internal notes are useful for recording customer requirements, follow-up instructions, and important information for other agents.
+
+### 24-Hour Messaging Window
+
+For WhatsApp conversations, the Inbox displays a warning when the 24-hour customer service window has expired.
+
+<figure><img src="../../.gitbook/assets/24 hour.png" alt=""><figcaption></figcaption></figure>
+
+When the messaging window has expired, agents can click **Send Template** to send an approved WhatsApp message template.
+
+Once the customer replies, a new 24-hour customer service window opens, allowing agents to resume normal messaging.
+
+{% hint style="info" %}
+You can read more on 24-Hour Customer Service Window [here](https://app.gitbook.com/s/GHgdbbH2lvIHBovxjyrP/useful-guides).
+{% endhint %}

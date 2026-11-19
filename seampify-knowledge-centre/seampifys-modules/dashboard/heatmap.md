@@ -2,6 +2,7 @@
 description: >-
   Heatmap provides insights into message activity and interactions on the
   platform, grouped hour-by-hour.
+hidden: true
 ---
 
 # Heatmap

@@ -2,24 +2,23 @@
 description: >-
   This guide outlines how to upload a contacts database in bulk using CSV and
   manage attributes for effective organization in the platform.
+hidden: true
 ---
 
 # Uploading Contact Database
-
-{% embed url="https://youtu.be/4XGBv4RFuAg" %}
 
 ## **Uploading Contacts in Bulk**
 
 To upload contacts in bulk, follow these steps:
 
-### Step 1: Navigate Contacts&#x20;
+### Step 1: Navigate Contacts
 
-* Go to "Contacts" tab&#x20;
+* Go to "Contacts" tab
 * Click "Import CSV" button
 
 <figure><img src="../.gitbook/assets/image (376).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Step 2: Upload Contacts&#x20;
+### Step 2: Upload Contacts
 
 * If the file already has a country code for the contacts, you can tick **Yes** under the Phone Number have country code checkbox. Otherwise, select the country code that you wish to add for all the numbers in the CSV file.
 
@@ -54,7 +53,7 @@ Kindly only upload CSV file format. You may click on the Download Sample File to
 * By default, the column will be assigned to the respective Contact Field if the name is matched . You can manually drag data into the correct Contact Field boxes if needed.
 
 {% hint style="info" %}
-Note: If you need to add a new Contact Field, please do this step beforehand. You may refer [how to add a Contact Field here.](../seampifys-modules/contacts/filter-options/contact-fields.md)
+Note: If you need to add a new Contact Field, please do this step beforehand. You may refer [how to add a Contact Field here.](../seampifys-modules/crm/contacts/filter-options/contact-fields.md)
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (271).png" alt=""><figcaption></figcaption></figure>
@@ -67,8 +66,6 @@ Note: If you need to add a new Contact Field, please do this step beforehand. Yo
 
 <figure><img src="../.gitbook/assets/image (380).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## **Things to Note before Uploading CSV File:**
 
 ### **Mandatory Data in CSV**
@@ -78,13 +75,11 @@ Note: If you need to add a new Contact Field, please do this step beforehand. Yo
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-11-15 at 7.36.24 PM.png" alt="" width="115"><figcaption></figcaption></figure>
 
-* It is recommended to add as much informations for each of your contact as possible. You may add columns in your Excel file such as Race, Birthdays, Language etc.&#x20;
+* It is recommended to add as much informations for each of your contact as possible. You may add columns in your Excel file such as Race, Birthdays, Language etc.
 
 {% hint style="info" %}
-Note: Each column is named as Contact Field in Seampify. There are some default Contact Filed in Seampify, if you need to create a new Contact Field, please refer [how to add a Contact Field here.](../seampifys-modules/contacts/filter-options/contact-fields.md)
+Note: Each column is named as Contact Field in Seampify. There are some default Contact Filed in Seampify, if you need to create a new Contact Field, please refer [how to add a Contact Field here.](../seampifys-modules/crm/contacts/filter-options/contact-fields.md)
 {% endhint %}
-
-
 
 ### **Avoiding Duplicate Values**
 
@@ -102,11 +97,9 @@ By default, Seampify will merge duplicated Phone Numbers but it is best to ensur
 1. Carefully review all highlighted duplicates.
 2. Make necessary adjustments to remove or differentiate duplicate entries.
 
-
-
 ### Adding Country Code to Your Numbers
 
-You are able to send WhatsApp messages from worldwide hence it is a mandatary to include a country code for your numbers. If your data does not have a country code, Seampify is able to help you add a specific country code to all of your numbers during upload.&#x20;
+You are able to send WhatsApp messages from worldwide hence it is a mandatary to include a country code for your numbers. If your data does not have a country code, Seampify is able to help you add a specific country code to all of your numbers during upload.
 
 * To do this, select No under Phone Number have country code? section and select the country code that you wish to add for all the numbers in the CSV file.
 

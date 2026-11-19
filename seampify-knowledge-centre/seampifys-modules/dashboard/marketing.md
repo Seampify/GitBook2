@@ -2,6 +2,7 @@
 description: >-
   This page provides a marketing dashboard for managing and monitoring campaigns
   and drip campaigns. Here's an explanation of the key sections:
+hidden: true
 ---
 
 # Marketing
@@ -24,11 +25,9 @@ This section displays the **top 5 most recent campaigns** that were created or r
 <figure><img src="../../.gitbook/assets/image (712).png" alt=""><figcaption></figcaption></figure>
 
 To view about campaigns in detail, you can click the following link to go to the **Campaign Page**:\
-[Go to Campaigns](../campaigns/)
+[Go to Campaigns](../marketing-and-ai/campaigns/)
 
 ***
-
-
 
 ## **Recent Drip Campaigns**
 

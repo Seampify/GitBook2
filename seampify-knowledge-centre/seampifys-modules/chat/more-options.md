@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # More Options
 
 More options of the chat module lets you perform advanced actions to the chat. For instance, you can change Conversation Status; Message Read Status; assign Bot and more.

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Support
 
 ## Overview
@@ -32,6 +36,6 @@ Here, you can also view your users' report based on the date range chosen.
 
 ## Agent Timesheet
 
-Here, you can view the timesheet of your users based on the date range chosen.&#x20;
+Here, you can view the timesheet of your users based on the date range chosen.
 
 <figure><img src="../../.gitbook/assets/image (278).png" alt=""><figcaption></figcaption></figure>

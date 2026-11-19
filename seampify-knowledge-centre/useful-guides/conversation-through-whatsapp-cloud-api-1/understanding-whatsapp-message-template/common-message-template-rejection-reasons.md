@@ -19,7 +19,7 @@ Message templates may be rejected by Meta for the following reasons. Make sure t
 * **Duplicate templates:** The template contains the same content as an existing template. Duplicate detection may vary by template type.
 * **Unsupported links:** The template contains URL shorteners or links that do not meet Meta's requirements.
 
-If your template is rejected, you can check the rejection reason in [Meta Business Support Home](https://business.facebook.com/business-support-home) or WhatsApp Manager.&#x20;
+If your template is rejected, you can check the rejection reason in [Meta Business Support Home](https://business.facebook.com/business-support-home) or WhatsApp Manager.
 
 To view rejected templates in Business Support Home, navigate to **Account Overview > View My Accounts > (Your Meta Business Account) > (Your WhatsApp Business Account (WABA)) > Rejected Message Templates**.
 
@@ -28,14 +28,14 @@ You may also receive an email notification containing the rejection details.
 For duplicate templates, the Business Support Home notification may display the name and language of the existing template with identical content. Once you've identified the issue, you can edit the template and resubmit it for approval.
 
 {% hint style="info" %}
-**Note:** Duplicate-template restrictions do not apply to templates categorised as [`AUTHENTICATION`](./#types-of-message-template).&#x20;
+**Note:** Duplicate-template restrictions do not apply to templates categorised as [`AUTHENTICATION`](./#types-of-message-template).
 {% endhint %}
 
 ***
 
 ## 2. Troubleshooting a Rejected Message Template
 
-You can edit and resubmit a rejected template through the [Manage Templates](../../../seampifys-modules/settings/more-settings/channels/manage-templates/) page in Seampify.&#x20;
+You can edit and resubmit a rejected template through the [Manage Templates](../../../seampifys-modules/settings-1/more-settings/channels/manage-templates/) page in Seampify.
 
 Once resubmitted, the template's status will change to **Pending** while Meta reviews it. The template cannot be sent to customers until it has been approved and is active.
 

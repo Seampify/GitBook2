@@ -1,4 +1,5 @@
 ---
+hidden: true
 icon: clock-rotate-left
 ---
 
@@ -25,4 +26,3 @@ Click to view more details for each section:
 {% content-ref url="system-logs.md" %}
 [system-logs.md](system-logs.md)
 {% endcontent-ref %}
-

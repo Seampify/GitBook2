@@ -35,7 +35,5 @@ It is always recommend to test your Automation to ensure everything is okay. To 
 {% hint style="warning" %}
 This Automation will mark the contact as blacklist once they have sent in the keyword. Once a contact is marked as blacklisted, all automations and broadcast messages via Campaigns or Drip Campaigns will no longer run for that contact.
 
-
-
-If you wish to unmark a contact from blacklist, you will need to do this manually from Contact module. [Refer here to unblock a contact.](../../contacts/contact-database.md#block-unlock-a-contact-s)
+If you wish to unmark a contact from blacklist, you will need to do this manually from Contact module. [Refer here to unblock a contact.](../../crm/contacts/contact-database.md#block-unlock-a-contact-s)
 {% endhint %}

@@ -69,7 +69,9 @@ You can use the **Criteria Router** node to identify incoming conversations base
 
 {% stepper %}
 {% step %}
-Create an automation with a **New Incoming Message** trigger and select **All messages (no filter)**.
+Create an automation with a **New Message Received from Ad** trigger and select **All messages (no filter)** or **Exact Keyword Match** if you're using prefilled message.
+
+<figure><img src="../../.gitbook/assets/ads (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -83,7 +85,7 @@ Under Conditions, select the appropriate field:
 * **Source Type:** Identify conversations based on their source type.
 * **Source Url:** Identify conversations associated with a specific source URL.
 
-<figure><img src="../../.gitbook/assets/image (350).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ads (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

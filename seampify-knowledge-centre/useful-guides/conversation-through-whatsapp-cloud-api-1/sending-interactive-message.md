@@ -61,6 +61,6 @@ Here are some examples of when each interactive message type can be used.
 
 Learn more about setting up interactive messages in Seampify:
 
-{% content-ref url="../../seampifys-modules/settings/more-settings/channels/interactive-messages.md" %}
-[interactive-messages.md](../../seampifys-modules/settings/more-settings/channels/interactive-messages.md)
+{% content-ref url="../../seampifys-modules/settings-1/more-settings/channels/interactive-messages.md" %}
+[interactive-messages.md](../../seampifys-modules/settings-1/more-settings/channels/interactive-messages.md)
 {% endcontent-ref %}

@@ -2,8 +2,6 @@
 
 Actions in an automation workflow are the Tasks that get executed when Event activates, and Trigger Condition(s) are fulfilled.
 
-
-
 Once you have setup the [Automation Workflow settings](./#step-1-setup-automation-workflow), you will goes to the Automation window. Here, you may click the <img src="../../../.gitbook/assets/image (465).png" alt="" data-size="line"> button or right click on the window to access Action types and add them.
 
 <figure><img src="../../../.gitbook/assets/image (466).png" alt="" width="364"><figcaption></figcaption></figure>
@@ -13,8 +11,6 @@ There are quite a number of Actions for the Automated Workflow; based on those, 
 {% hint style="info" %}
 If you have integrated to a Marketplace, you will see more Actions node here.
 {% endhint %}
-
-
 
 ## Types of Workflow Action Nodes
 
@@ -30,19 +26,15 @@ There are the different Action Nodes under the below Action Types category which
 
 To access the nodes' settings, simply double click. Once you have done update the settings, click on <img src="../../../.gitbook/assets/image (491).png" alt="" data-size="line"> to save it.
 
-
-
-## **1. Starting Point** Actions Type&#x73;**:**&#x20;
+## **1. Starting Point** Actions Type&#x73;**:**
 
 ### <img src="../../../.gitbook/assets/image (470).png" alt="" data-size="line">**Trigger Node**
 
-This is your starting point for each Automation Workflow. Under Trigger Node, you may choose your desire Trigger Conditions which is the basis for an automated action(s) to run. There are multiple types of Conditions, which, if fulfilled, the Action(s) will be executed.&#x20;
+This is your starting point for each Automation Workflow. Under Trigger Node, you may choose your desire Trigger Conditions which is the basis for an automated action(s) to run. There are multiple types of Conditions, which, if fulfilled, the Action(s) will be executed.
 
 [Learn more about Trigger Conditions here.](trigger-conditions.md)
 
 <figure><img src="../../../.gitbook/assets/image (467).png" alt="" width="342"><figcaption></figcaption></figure>
-
-
 
 ## **2. Workflow** Action Type&#x73;**:**
 
@@ -56,8 +48,6 @@ You can set multiple criteria and each criteria can have it's own workflow once 
 
 <figure><img src="../../../.gitbook/assets/image (469).png" alt="" width="208"><figcaption></figcaption></figure>
 
-
-
 ### <img src="../../../.gitbook/assets/image (472).png" alt="" data-size="line">**Jump to Automation**
 
 Jump to a specific automation flow automatically.
@@ -68,15 +58,11 @@ Jump to a specific automation flow automatically.
 You need to have more than one automation running to view the options in the dropdown menu.
 {% endhint %}
 
-
-
 ### <img src="../../../.gitbook/assets/image (474).png" alt="" data-size="line">**Delay Execution**
 
-Introduce delays where necessary to control the timing of actions automatically.&#x20;
+Introduce delays where necessary to control the timing of actions automatically.
 
 <figure><img src="../../../.gitbook/assets/image (475).png" alt="" width="563"><figcaption></figcaption></figure>
-
-
 
 ## 3. Messaging Action Types:
 
@@ -94,11 +80,9 @@ If you've created a WhatsApp Template Message and want to send it automatically 
 WhatsApp Message Template is chargeable based on the category. Refer to the WhatsApp API Conversation-Based Pricing
 {% endhint %}
 
-
-
 ### <img src="../../../.gitbook/assets/image (478).png" alt="" data-size="line">**Auto Reply Button/Option/Products**
 
-Send automated replies that include attachments, buttons for options/WhatsApp Flow and/or ask for location.&#x20;
+Send automated replies that include attachments, buttons for options/WhatsApp Flow and/or ask for location.
 
 <figure><img src="../../../.gitbook/assets/image (479).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -106,23 +90,19 @@ If you've created Product Catalogs in the WhatsApp Store Settings, you will see 
 
 <figure><img src="../../../.gitbook/assets/image (480).png" alt="" width="534"><figcaption></figcaption></figure>
 
-
-
 ### <img src="../../../.gitbook/assets/image (481).png" alt="" data-size="line">**Auto Reply and Collect User Inputs**
 
 If you want to ask users bot questions and want to save their responses in the contact fields automatically, you can use this Action Node.
 
 <figure><img src="../../../.gitbook/assets/image (482).png" alt=""><figcaption></figcaption></figure>
 
-In this setup, you need to define a question in the **Question** field. For the answer, select a **Contact Field** from the **Save To** option to store the user's response. The dropdown menu will display the available Contact Fields in your Seampify account. If the desired option is not listed, you can [create a new Contact Field.](../../contacts/filter-options/contact-fields.md#create-a-contact-field)
+In this setup, you need to define a question in the **Question** field. For the answer, select a **Contact Field** from the **Save To** option to store the user's response. The dropdown menu will display the available Contact Fields in your Seampify account. If the desired option is not listed, you can [create a new Contact Field.](../../crm/contacts/filter-options/contact-fields.md#create-a-contact-field)
 
 <figure><img src="../../../.gitbook/assets/image (483).png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-If you save the anwer on a **Tag** and **Remark** Contact Field, it will replace the existing data with the new data by user's response. [Refer Add Tag Action Node instead](actions-steps.md#add-tags)  if you wish to add on to the existing Tag.
+If you save the anwer on a **Tag** and **Remark** Contact Field, it will replace the existing data with the new data by user's response. [Refer Add Tag Action Node instead](actions-steps.md#add-tags) if you wish to add on to the existing Tag.
 {% endhint %}
-
-
 
 You can also validate the responses you wish to collect. The available validation types are as follows:
 
@@ -132,13 +112,11 @@ If you have multiple button options and want to collect only responses from the 
 
 <figure><img src="../../../.gitbook/assets/image (486).png" alt="" width="563"><figcaption></figcaption></figure>
 
-
-
 ## 4. Customer Interaction Action Types:
 
 ### <img src="../../../.gitbook/assets/image (487).png" alt="" data-size="line">**Add To Drip Campaign**
 
-If you've created a Drip Campaign and want to add a contact into that campaign automatically based on Trigger and its Condition, you can use the **Add To Drip Campaign** in the Workflow Step.&#x20;
+If you've created a Drip Campaign and want to add a contact into that campaign automatically based on Trigger and its Condition, you can use the **Add To Drip Campaign** in the Workflow Step.
 
 <figure><img src="../../../.gitbook/assets/image (488).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -146,19 +124,15 @@ If you've created a Drip Campaign and want to add a contact into that campaign a
 You need to [set up Drip Campaign first](../../drip-campaign/#creating-a-drip-campaign) to view the options in the dropdown menu.
 {% endhint %}
 
-
-
-### <img src="../../../.gitbook/assets/image (489).png" alt="" data-size="line">**Remove From Drip Campaign**&#x20;
+### <img src="../../../.gitbook/assets/image (489).png" alt="" data-size="line">**Remove From Drip Campaign**
 
 If the contact is in a Drip Campaign, and if you want to remove it from that based on the Trigger Condition(s) fulfillment automatically, you can use this particular Action Node.
 
 <figure><img src="../../../.gitbook/assets/image (490).png" alt="" width="563"><figcaption></figcaption></figure>
 
-
-
 ### <img src="../../../.gitbook/assets/image (492).png" alt="" data-size="line">**Add Contact List**
 
-The automation Workflow can add the contact to a list under this Action Node when the automation trigger is activated.&#x20;
+The automation Workflow can add the contact to a list under this Action Node when the automation trigger is activated.
 
 <figure><img src="../../../.gitbook/assets/image (493).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -166,15 +140,13 @@ The automation Workflow can add the contact to a list under this Action Node whe
 This is helpful for categorizing new leads into their respective lists for better organization.
 {% endhint %}
 
-
-
 ### <img src="../../../.gitbook/assets/image (494).png" alt="" data-size="line">**Set Contact Attribute**
 
-If you like to save a message under a specific [Contact Field](../../contacts/filter-options/contact-fields.md) automatically, you can use this Set Contact Attribute Action Node.
+If you like to save a message under a specific [Contact Field](../../crm/contacts/filter-options/contact-fields.md) automatically, you can use this Set Contact Attribute Action Node.
 
 <figure><img src="../../../.gitbook/assets/image (495).png" alt="" width="563"><figcaption></figcaption></figure>
 
-You can also update multiple Contact Attribute by clicking the + button. If you couldn't find your desire Contact Attribute from the drop down options, you may [create a new Contact Field here.](../../contacts/filter-options/contact-fields.md#create-a-contact-field)
+You can also update multiple Contact Attribute by clicking the + button. If you couldn't find your desire Contact Attribute from the drop down options, you may [create a new Contact Field here.](../../crm/contacts/filter-options/contact-fields.md#create-a-contact-field)
 
 {% hint style="info" %}
 This is useful to update a contact profile field with your dedicated message.
@@ -184,17 +156,11 @@ This is useful to update a contact profile field with your dedicated message.
 If you use **Set Contact Attribute** on a **Tag** and **Remark** Contact Field, it will replace the existing data with the new data you save. [Refer Add Tags action node instead](actions-steps.md#add-tags) if you wish to add on to the existing Tag.
 {% endhint %}
 
-
-
-
-
 <img src="../../../.gitbook/assets/image (496).png" alt="" data-size="line">**Set Conversation Status**
 
 Change the status of a conversation (e.g., open, closed, pending) automatically.
 
 <figure><img src="../../../.gitbook/assets/image (497).png" alt="" width="563"><figcaption></figcaption></figure>
-
-
 
 ### <img src="../../../.gitbook/assets/image (498).png" alt="" data-size="line">**Mark Blacklisted**
 
@@ -207,10 +173,6 @@ There is no settings for this Action Node. The contact will be automatically Mar
 {% hint style="info" %}
 This is useful when a contact decides to unsubscribe from your broadcasts, ensuring they no longer receive automated messages or campaigns. Refer to [Broadcast Subscription Automation Guide](../import-automation-template/#broadcast-subscription-automation-guide) for this.
 {% endhint %}
-
-
-
-
 
 ### <img src="../../../.gitbook/assets/image (500).png" alt="" data-size="line">**Assign To Team Member**
 
@@ -252,29 +214,23 @@ This Action Node remove an assignment from any team member automatically.
 
 There is no settings for this Action Node. The contact will be automatically unassigned once it goes through this node.
 
-
-
 ## 5. Security Action Types:
 
 ### <img src="../../../.gitbook/assets/image (505).png" alt="" data-size="line">**Hide The File**
 
-Secure sensitive files shared in the conversation. There is no settings for this Action Node.&#x20;
+Secure sensitive files shared in the conversation. There is no settings for this Action Node.
 
 <figure><img src="../../../.gitbook/assets/image (506).png" alt="" width="175"><figcaption></figcaption></figure>
 
-
-
 ### <img src="../../../.gitbook/assets/image (507).png" alt="" data-size="line">**Mark The Text Messages As Per Regex**
 
-Use regex patterns to identify and mark specific text messages for follow-up or categorization. There is no settings for this Action Node.&#x20;
+Use regex patterns to identify and mark specific text messages for follow-up or categorization. There is no settings for this Action Node.
 
 <figure><img src="../../../.gitbook/assets/image (508).png" alt="" width="238"><figcaption></figcaption></figure>
 
-
-
 ## 6. Technical Action Types:
 
-### <img src="../../../.gitbook/assets/image (509).png" alt="" data-size="line">**Call REST API**&#x20;
+### <img src="../../../.gitbook/assets/image (509).png" alt="" data-size="line">**Call REST API**
 
 Integrate with external systems by calling REST APIs. Likewise sending information to the Rest API using the Push To CRM action type, you can also call/add the API of a 3rd party software or platform when needed using the automation for the particular Trigger.
 
@@ -287,15 +243,11 @@ According to your requirements and the platform's compatibility, add the REST AP
 * Select Data Type as URL Encoded, JSON, or FORM.
 * Then, add the JSON Data using the parameter fields, and once done, click **Add**.
 
-
-
 ### <img src="../../../.gitbook/assets/image (511).png" alt="" data-size="line">**Eval**
 
 Execute custom scripts or code snippets for advanced processing.
 
 <figure><img src="../../../.gitbook/assets/image (512).png" alt="" width="563"><figcaption></figcaption></figure>
-
-
 
 ## 7. Tagging Action Types:
 
@@ -305,21 +257,17 @@ To automatically assign tags to the contact, you can utilize this particular Act
 
 <figure><img src="../../../.gitbook/assets/image (513).png" alt="" width="563"><figcaption></figcaption></figure>
 
-You can add multiple tags as needed.&#x20;
+You can add multiple tags as needed.
 
 {% hint style="info" %}
 This method will add new tags to the contact's existing ones without removing any.
 {% endhint %}
-
-
 
 ### <img src="../../../.gitbook/assets/image (515).png" alt="" data-size="line">**Remove Tags**
 
 Create an automation step to remove tags from the contact. Click on the Tags field and simply select the existing tag(s) you want to remove and click **Add**.
 
 <figure><img src="../../../.gitbook/assets/image (516).png" alt="" width="563"><figcaption></figcaption></figure>
-
-
 
 ## 8. Whatsapp Chat Commerce Action Types:
 
@@ -333,17 +281,14 @@ Send messages to confirm cart contents and orders automatically.
 This is useful when you receive a Catalog Order from contact.
 {% endhint %}
 
-
-
 ### <img src="../../../.gitbook/assets/image (519).png" alt="" data-size="line">**Send WhatsApp Notification**
 
 Send a WhatsApp message to specific contact number(s) of your choice when the workflow reaches this action node.
 
 <figure><img src="../../../.gitbook/assets/image (520).png" alt="" width="563"><figcaption></figcaption></figure>
 
-You have to define the Phone Number, then select the template message to sent over.&#x20;
+You have to define the Phone Number, then select the template message to sent over.
 
 {% hint style="warning" %}
 WhatsApp Message Template is chargeable based on the category. Refer to the WhatsApp API Conversation-Based Pricing
 {% endhint %}
-

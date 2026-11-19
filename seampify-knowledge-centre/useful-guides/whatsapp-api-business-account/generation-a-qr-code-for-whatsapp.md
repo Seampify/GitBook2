@@ -80,5 +80,3 @@ Follow these steps to connect your link to an automation:
 {% hint style="success" %}
 **Note:** The automation will only trigger when the customer's incoming message matches the configured keyword condition. Scanning the QR code or opening the link alone will not trigger the automation.
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/demo4.gif" alt=""><figcaption><p>Video on how to setup a trigger to automation with the QR/link</p></figcaption></figure>

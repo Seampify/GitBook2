@@ -3,6 +3,7 @@ description: >-
   To set up an Auto Reply when a user clicks on the broadcast buttons and edit
   the flow using the pre-built Broadcast Respond Auto Reply & Assignment
   template, follow these steps:
+hidden: true
 ---
 
 # Setting up Auto Reply
@@ -14,9 +15,9 @@ description: >-
 
 <figure><img src="../.gitbook/assets/image (743).png" alt=""><figcaption></figcaption></figure>
 
-3. **Click "**`General`**" tab.**&#x20;
+3. **Click "**`General`**" tab.**
 4. **Search for the template** named `Broadcast Respond Auto Reply & Assignment`.
-5. Click the `"Preview"` button of the template&#x20;
+5. Click the `"Preview"` button of the template
 
 <figure><img src="../.gitbook/assets/image (744).png" alt=""><figcaption></figcaption></figure>
 
@@ -27,8 +28,6 @@ description: >-
 {% hint style="info" %}
 _Tip: You can explore other automation templates to find ones that match your use case._
 {% endhint %}
-
-
 
 ## Configure the Button's Trigger
 
@@ -45,8 +44,6 @@ _Note: Ensure the `keyword` matches the `Button ID` exactly when you sent the me
 
 <figure><img src="../.gitbook/assets/image (745).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## Customise Actions for the Trigger
 
 1. Double-click on the action box (Auto Reply Buttons/Options/Products).
@@ -54,8 +51,6 @@ _Note: Ensure the `keyword` matches the `Button ID` exactly when you sent the me
 3. Click Update Node to save changes.
 
 <figure><img src="../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ## Add Multiple Triggers for Multiple Buttons
 
@@ -68,4 +63,3 @@ _Note: Ensure the `keyword` matches the `Button ID` exactly when you sent the me
 {% hint style="warning" %}
 _Note: Using unique keywords ensures each button triggers only its designated automation._
 {% endhint %}
-

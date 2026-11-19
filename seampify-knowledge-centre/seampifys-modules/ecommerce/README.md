@@ -2,6 +2,7 @@
 description: >-
   Seampify's Ecommerce module helps you manage your product catalog, handle
   customer orders, and connect with Meta Commerce to sync your store.
+hidden: true
 icon: cash-register
 ---
 

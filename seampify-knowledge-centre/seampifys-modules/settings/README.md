@@ -4,31 +4,21 @@ icon: gear
 
 # Settings
 
-Take Control of the platform by utilizing the options available in Settings.
+The **Settings** module in Seampify allows users to manage their account information, workspace configurations, communication channels, integrations, and billing preferences.
 
+The module is divided into four main categories:
 
+| **Category**        | **Description**                                                                            |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| Account             | Manage personal account information, login settings, passwords, and notifications.         |
+| Workspace           | Configure organization settings, CRM, contacts, tasks, team members, and user permissions. |
+| Developer & Billing | Manage communication channels, developer settings, integrations, and billing information.  |
+| Support             | Access the ticketing system for support-related enquiries.                                 |
 
-You can access the Settings Panel and its options in 2 ways.
+## Accessing Settings
 
-* From the Left Sidebar modules and click Settings.
+1. Log in to your Seampify account.
+2. Click **Settings** on the left-hand navigation menu.
+3. Select the relevant settings category from the menu.
 
-<figure><img src="../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure>
-
-* Or, click on the gear (⚙️) icon directly from your top right menu.
-
-<figure><img src="../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
-
-The different options available in the **Settings** panel of the Seampify platform allow you to make the most out of it. By using the following options, you can simplify how the platform works and provide customers with the best-in-class user support.
-
-{% content-ref url="personal-settings.md" %}
-[personal-settings.md](personal-settings.md)
-{% endcontent-ref %}
-
-{% content-ref url="business-settings/" %}
-[business-settings](business-settings/)
-{% endcontent-ref %}
-
-{% content-ref url="more-settings/" %}
-[more-settings](more-settings/)
-{% endcontent-ref %}
-
+<figure><img src="../../.gitbook/assets/settings.png" alt=""><figcaption></figcaption></figure>

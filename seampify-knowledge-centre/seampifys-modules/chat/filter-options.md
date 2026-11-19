@@ -1,22 +1,67 @@
-# Filter Options
+# Inbox Filter
 
-The Filter Options here allow you to manage your conversations efficiently. To access the filter options, click on the **filter** icon.
+The Inbox Filters panel allows agents to locate and organize conversations based on different criteria.
 
 <figure><img src="../../.gitbook/assets/image (172).png" alt="" width="170"><figcaption></figcaption></figure>
 
-Below are the options you can filter by:
+### Conversation Status
 
-* **Tags** - Click to view the list of tags used in your Seampify account. You can search using multiple tags. If you create a new tag, refresh the page to see it in the options list.
-* **Assigned To** - Click to view the list of user(s) in your Seampify account. You can search by multiple users here.
-* **Assign to Department** - Click to view the list of department(s) in your Seampify account. You can search by multiple department here.
-* **Conversation Status** - Click to filter conversations by "Open" or "Waiting for Customer Response" status. Make sure to mark the conversation status beforehand.
-* **Last Message By Customer:** Click to filter conversations where the customer's message was the most recent.\
-  **Last Message By Bot:** Click to filter conversations where the bot's message was the most recent.
-* **Unassigned** - Click to filter conversations that have not been assigned to any user.
+| **Status** | **Description**                             |
+| ---------- | ------------------------------------------- |
+| Open       | Active conversations that remain open.      |
+| Pending    | Conversations currently marked as pending.  |
+| Closed     | Conversations that have been closed.        |
+| All        | Displays conversations across all statuses. |
 
-Once a filter has set, click <img src="../../.gitbook/assets/image (173).png" alt="" data-size="original"> button to apply the filter settings or <img src="../../.gitbook/assets/image (174).png" alt="" data-size="original">button to reset the settings.
+### Filters
 
-## Quick Filters
+Additional filtering options are available to help agents manage their conversations efficiently.
 
-* <img src="../../.gitbook/assets/image (175).png" alt="" data-size="line">**Pinned Contacts** - Click to filter conversations that have been pinned.
-* <img src="../../.gitbook/assets/image (179).png" alt="" data-size="line"> **Mentions** - Click to view conversations where your logged-in user was mentioned.
+| **Filter**        | **Description**                                       |
+| ----------------- | ----------------------------------------------------- |
+| All Inboxes       | View conversations across available inboxes.          |
+| Assigned To       | Filter conversations according to the assigned agent. |
+| Unread            | Display conversations containing unread messages.     |
+| Unassigned        | Display conversations without an assigned agent.      |
+| In Queue          | Display conversations currently in the queue.         |
+| Follow-ups Due    | Display conversations with follow-ups due.            |
+| Appointments      | Filter conversations associated with appointments.    |
+| Waiting for Guest | Display conversations awaiting a customer response.   |
+| Waiting for Agent | Display conversations awaiting an agent response.     |
+
+### Last Message Within
+
+Filter conversations based on the recency of their last message.
+
+Available options include:
+
+* 15 minutes
+* 1 hour
+* 4 hours
+* 24 hours
+
+### AI & Automation
+
+Filter conversations based on how they are being handled.
+
+| **Filter** | **Description**                                       |
+| ---------- | ----------------------------------------------------- |
+| AI         | Conversations handled by AI.                          |
+| Human      | Conversations handled by human agents.                |
+| Handoff    | Conversations associated with an AI-to-human handoff. |
+
+### Channels
+
+Filter conversations according to the selected communication channel or connected account.
+
+### Teams
+
+Filter conversations based on the selected team.
+
+### Labels
+
+Labels allow businesses to categorize and organize customer conversations.
+
+Agents can select an existing label to filter conversations associated with that label. The number beside each label indicates its associated conversation count.
+
+Click the **+ icon** beside Labels to add a new label.
